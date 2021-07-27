@@ -1,0 +1,916 @@
+Items,Antecedent,Consequent,Support,Confidence,Lift
++Coupling,,+Coupling,0.32763466042154565,0.32763466042154565,1.0
++Size,,+Size,0.3704918032786885,0.3704918032786885,1.0
+"+WordsPerComment, +Complexity",+WordsPerComment,+Complexity,0.03747072599531616,0.3285420944558522,1.156533176691252
+"ExtractionRefactoring, +Complexity",ExtractionRefactoring,+Complexity,0.01920374707259953,0.38862559241706157,1.368038977428568
+"+Complexity, HighHunksCount",HighHunksCount,+Complexity,0.10983606557377049,0.35,1.2320692497938994
+"LowChangeSet, +Complexity",LowChangeSet,+Complexity,0.13325526932084308,0.3954134815844336,1.391933690326077
+"LowCodeChurn, +Complexity",LowCodeChurn,+Complexity,0.12060889929742388,0.3401585204755614,1.1974252946666506
+"MajorContributor, +Complexity",MajorContributor,+Complexity,0.23817330210772833,0.3314863102998696,1.1668973989945945
+"RenameRefactoring, +Complexity",RenameRefactoring,+Complexity,0.0117096018735363,0.3496503496503497,1.230838411382517
+"+Contributor, +Coupling",+Contributor,+Coupling,0.1288056206088993,0.3481012658227848,1.0624677663068556
+"+Size, +Contributor",+Contributor,+Size,0.1505854800936768,0.40696202531645564,1.0984373249691943
+"+NumPullRequests, +Coupling",+NumPullRequests,+Coupling,0.21030444964871195,0.3259528130671506,0.9948666989254705
+"+WordsPerComment, +Coupling",+WordsPerComment,+Coupling,0.03629976580796253,0.3182751540041068,0.9714331004985961
+"ExtractionRefactoring, +Coupling",ExtractionRefactoring,+Coupling,0.01920374707259953,0.38862559241706157,1.1861553106653702
+"HighHunksCount, +Coupling",HighHunksCount,+Coupling,0.12388758782201405,0.394776119402985,1.2049278269126134
+"LowChangeSet, +Coupling",LowChangeSet,+Coupling,0.12857142857142856,0.3815149409312022,1.16445232149838
+"LowCodeChurn, +Coupling",LowCodeChurn,+Coupling,0.11428571428571428,0.3223249669749009,0.9837938591728569
+"MajorContributor, +Coupling",MajorContributor,+Coupling,0.25175644028103045,0.35039113428943935,1.0694568573380314
+"RenameRefactoring, +Coupling",RenameRefactoring,+Coupling,0.011475409836065573,0.34265734265734266,1.0458519321993232
+"+Size, +NumPullRequests",+NumPullRequests,+Size,0.2224824355971897,0.3448275862068965,0.9307293256026853
+"+Size, +WordsInDiscussion",+WordsInDiscussion,+Size,0.08665105386416862,0.31329381879762913,0.8456160595865211
+"+Size, +WordsPerComment",+WordsPerComment,+Size,0.04590163934426229,0.4024640657084189,1.0862968145227236
+"+Size, ExtractionRefactoring",ExtractionRefactoring,+Size,0.029508196721311476,0.5971563981042654,1.6117938178920437
+"+Size, HighHunksCount",HighHunksCount,+Size,0.1358313817330211,0.4328358208955224,1.1682736758684455
+"+Size, LowChangeSet",LowChangeSet,+Size,0.1702576112412178,0.5052119527449618,1.3636251821877288
+"+Size, LowCodeChurn",LowCodeChurn,+Size,0.15644028103044497,0.44121532364597094,1.1908909178054967
+"+Size, MajorContributor",MajorContributor,+Size,0.29414519906323183,0.40938722294654495,1.1049832123778425
+"+Size, RenameRefactoring",RenameRefactoring,+Size,0.01639344262295082,0.4895104895104896,1.3212451265548613
+"ExtractionRefactoring, -Cohesion",ExtractionRefactoring,-Cohesion,0.023653395784543327,0.4786729857819905,2.5327554514115236
+"RenameRefactoring, -Cohesion",RenameRefactoring,-Cohesion,0.01053864168618267,0.3146853146853147,1.6650635609743416
+"ExtractionRefactoring, -Complexity",ExtractionRefactoring,-Complexity,0.01686182669789227,0.34123222748815163,1.9823967501692619
+"RenameRefactoring, -Complexity",RenameRefactoring,-Complexity,0.010070257611241218,0.30069930069930073,1.746919746919747
+"-Size, MoveRefactoring",MoveRefactoring,-Size,0.010304449648711944,0.6285714285714286,3.2182254196642686
+"RenameRefactoring, -Size",RenameRefactoring,-Size,0.010070257611241218,0.30069930069930073,1.5395515755227986
+"+Contributor, +WordsPerComment, +Complexity","+Contributor, +WordsPerComment",+Complexity,0.026932084309133488,0.3402366863905325,1.1977004541529874
+"+Contributor, +Complexity, HighHunksCount","+Contributor, HighHunksCount",+Complexity,0.03911007025761124,0.33333333333333337,1.1733992855179995
+"+Contributor, LowChangeSet, +Complexity","+Contributor, LowChangeSet",+Complexity,0.06252927400468385,0.4033232628398792,1.4197776853473076
+"+Contributor, LowCodeChurn, +Complexity","+Contributor, LowCodeChurn",+Complexity,0.058782201405152223,0.3621933621933622,1.2749922972511596
+"+Contributor, MajorContributor, +Complexity","+Contributor, MajorContributor",+Complexity,0.07517564402810305,0.4355495251017639,1.5332205046863412
+"+NumPullRequests, +WordsPerComment, +Complexity","+NumPullRequests, +WordsPerComment",+Complexity,0.028337236533957845,0.32180851063829785,1.1328296293697706
+"ExtractionRefactoring, +NumPullRequests, +Complexity","ExtractionRefactoring, +NumPullRequests",+Complexity,0.01053864168618267,0.3435114503816794,1.209228271335343
+"+NumPullRequests, +Complexity, HighHunksCount","+NumPullRequests, HighHunksCount",+Complexity,0.06276346604215456,0.3052391799544419,1.0745023070119264
+"+NumPullRequests, LowChangeSet, +Complexity","+NumPullRequests, LowChangeSet",+Complexity,0.07470725995316159,0.39382716049382716,1.3863495262231178
+"LowCodeChurn, +NumPullRequests, +Complexity","LowCodeChurn, +NumPullRequests",+Complexity,0.06744730679156909,0.3235955056179775,1.1391202052669118
+"MajorContributor, +NumPullRequests, +Complexity","+NumPullRequests, MajorContributor",+Complexity,0.1379391100702576,0.30661114003123374,1.0793318779335268
+"+Size, ExtractionRefactoring, +Complexity",ExtractionRefactoring,"+Size, +Complexity",0.017330210772833723,0.3507109004739336,1.5035497439996952
+"+Size, LowChangeSet, +Complexity",LowChangeSet,"+Size, +Complexity",0.11311475409836065,0.33564975677553854,1.4389803829634031
+"+WordsPerComment, +WordsInDiscussion, +Complexity","+WordsPerComment, +WordsInDiscussion",+Complexity,0.03747072599531616,0.3285420944558522,1.156533176691252
+"+WordsInDiscussion, +Complexity, HighHunksCount","+WordsInDiscussion, HighHunksCount",+Complexity,0.03395784543325527,0.30208333333333337,1.063393102500687
+"+WordsInDiscussion, +Complexity, LowChangeSet","+WordsInDiscussion, LowChangeSet",+Complexity,0.03325526932084309,0.3669250645994832,1.2916488259190382
+"LowCodeChurn, +WordsInDiscussion, +Complexity","LowCodeChurn, +WordsInDiscussion",+Complexity,0.03138173302107728,0.3145539906103286,1.1072922835169854
+"MajorContributor, +WordsInDiscussion, +Complexity","+WordsInDiscussion, MajorContributor",+Complexity,0.059250585480093675,0.30335731414868106,1.067877767036165
+"+WordsPerComment, +Complexity, HighHunksCount","+WordsPerComment, HighHunksCount",+Complexity,0.01826697892271663,0.4406779661016949,1.551273631701762
+"+WordsPerComment, +Complexity, LowChangeSet","+WordsPerComment, LowChangeSet",+Complexity,0.020608899297423888,0.4074074074074074,1.434154682299777
+"LowCodeChurn, +WordsPerComment, +Complexity","LowCodeChurn, +WordsPerComment",+Complexity,0.020140515222482436,0.3510204081632653,1.235661288423036
+"MajorContributor, +WordsPerComment, +Complexity","+WordsPerComment, MajorContributor",+Complexity,0.029039812646370025,0.4320557491289199,1.5209217219954558
+"ExtractionRefactoring, +Complexity, HighHunksCount","ExtractionRefactoring, HighHunksCount",+Complexity,0.013583138173302109,0.37662337662337664,1.3257888031177396
+"ExtractionRefactoring, LowChangeSet, +Complexity","ExtractionRefactoring, LowChangeSet",+Complexity,0.010070257611241218,0.5180722891566265,1.8237169618291798
+"ExtractionRefactoring, MajorContributor, +Complexity","ExtractionRefactoring, MajorContributor",+Complexity,0.017330210772833723,0.4021739130434782,1.415731746657586
+"LowChangeSet, +Complexity, HighHunksCount","LowChangeSet, HighHunksCount",+Complexity,0.047775175644028105,0.504950495049505,1.7775256503391477
+"LowCodeChurn, +Complexity, HighHunksCount","LowCodeChurn, HighHunksCount",+Complexity,0.03770491803278689,0.4878787878787879,1.717429863349072
+"MajorContributor, +Complexity, HighHunksCount","MajorContributor, HighHunksCount",+Complexity,0.10351288056206089,0.3830155979202773,1.348290686825708
+"LowCodeChurn, LowChangeSet, +Complexity","LowCodeChurn, LowChangeSet",+Complexity,0.11311475409836065,0.3907766990291262,1.3756112983135769
+"MajorContributor, LowChangeSet, +Complexity","LowChangeSet, MajorContributor",+Complexity,0.10585480093676815,0.4752891692954785,1.6731119149972737
+"LowCodeChurn, MajorContributor, +Complexity","LowCodeChurn, MajorContributor",+Complexity,0.0936768149882904,0.4110996916752313,1.4471522534651589
+"MajorContributor, RenameRefactoring, +Complexity","RenameRefactoring, MajorContributor",+Complexity,0.0117096018735363,0.4,1.4080791426215995
+"+Contributor, +NumPullRequests, +Coupling","+Contributor, +NumPullRequests",+Coupling,0.07868852459016394,0.3274853801169591,0.9995443696207401
+"+Contributor, +WordsPerComment, +Coupling","+Contributor, +WordsPerComment",+Coupling,0.02622950819672131,0.33136094674556216,1.0113732970718732
+"+Contributor, HighHunksCount, +Coupling","+Contributor, HighHunksCount",+Coupling,0.04473067915690866,0.38123752495009977,1.1636055979534854
+"+Contributor, LowChangeSet, +Coupling","+Contributor, LowChangeSet",+Coupling,0.06370023419203748,0.4108761329305136,1.254067968272547
+"+Contributor, LowCodeChurn, +Coupling","+Contributor, LowCodeChurn",+Coupling,0.0585480093676815,0.36075036075036077,1.1010750824903792
+"+Contributor, MajorContributor, +Coupling","+Contributor, MajorContributor",+Coupling,0.07423887587822015,0.4301221166892809,1.3128101774576337
+"+Size, +Contributor, +NumPullRequests","+Contributor, +NumPullRequests",+Size,0.08946135831381732,0.3723196881091618,1.0049336714450827
+"+Size, +Contributor, +WordsInDiscussion","+Contributor, +WordsInDiscussion",+Size,0.046370023419203744,0.3373083475298126,0.9104340353680782
+"+Size, +Contributor, +WordsPerComment","+Contributor, +WordsPerComment",+Size,0.033489461358313814,0.423076923076923,1.141933287950987
+"+Size, +Contributor, ExtractionRefactoring","ExtractionRefactoring, +Contributor",+Size,0.011475409836065573,0.5764705882352941,1.555960437272254
+"+Size, +Contributor, HighHunksCount","+Contributor, HighHunksCount",+Size,0.05269320843091335,0.44910179640718567,1.2121774150813418
+"+Size, +Contributor, LowChangeSet","+Contributor, LowChangeSet",+Size,0.08149882903981265,0.525679758308157,1.4188701441060876
+"+Size, +Contributor, LowCodeChurn","+Contributor, LowCodeChurn",+Size,0.0765807962529274,0.4718614718614718,1.2736083975022028
+"+Size, +Contributor, MajorContributor","+Contributor, MajorContributor",+Size,0.09039812646370024,0.5237449118046134,1.4136477708000625
+"+Size, +Contributor, MinorContributor","+Contributor, MinorContributor",+Size,0.060187353629976584,0.30486358244365364,0.8228618818169412
+"+NumPullRequests, +WordsPerComment, +Coupling","+NumPullRequests, +WordsPerComment",+Coupling,0.028805620608899296,0.32712765957446804,0.9984525420893342
+"ExtractionRefactoring, +NumPullRequests, +Coupling","ExtractionRefactoring, +NumPullRequests",+Coupling,0.011943793911007026,0.3893129770992367,1.1882533325330527
+"+NumPullRequests, HighHunksCount, +Coupling","+NumPullRequests, HighHunksCount",+Coupling,0.07798594847775175,0.3792710706150342,1.1576036251080744
+"+NumPullRequests, LowChangeSet, +Coupling","+NumPullRequests, LowChangeSet",+Coupling,0.07259953161592506,0.3827160493827161,1.16811832084646
+"LowCodeChurn, +NumPullRequests, +Coupling","LowCodeChurn, +NumPullRequests",+Coupling,0.06697892271662763,0.3213483146067415,0.9808129402221489
+"+NumPullRequests, MajorContributor, +Coupling","+NumPullRequests, MajorContributor",+Coupling,0.15550351288056205,0.3456533055700156,1.054996150667596
+"+Size, ExtractionRefactoring, +Coupling",ExtractionRefactoring,"+Size, +Coupling",0.01639344262295082,0.33175355450236965,1.579250476839597
+"+WordsPerComment, +WordsInDiscussion, +Coupling","+WordsPerComment, +WordsInDiscussion",+Coupling,0.03629976580796253,0.3182751540041068,0.9714331004985961
+"LowChangeSet, +WordsInDiscussion, +Coupling","+WordsInDiscussion, LowChangeSet",+Coupling,0.030913348946135833,0.3410852713178295,1.04105368729602
+"HighHunksCount, +WordsPerComment, +Coupling","+WordsPerComment, HighHunksCount",+Coupling,0.01592505854800937,0.384180790960452,1.1725889759836527
+"LowChangeSet, +WordsPerComment, +Coupling","+WordsPerComment, LowChangeSet",+Coupling,0.01990632318501171,0.3935185185185185,1.2010894024832552
+"LowCodeChurn, +WordsPerComment, +Coupling","LowCodeChurn, +WordsPerComment",+Coupling,0.01920374707259953,0.33469387755102037,1.0215460022465026
+"+WordsPerComment, MajorContributor, +Coupling","+WordsPerComment, MajorContributor",+Coupling,0.022950819672131147,0.34146341463414637,1.0422078488118691
+"ExtractionRefactoring, HighHunksCount, +Coupling","ExtractionRefactoring, HighHunksCount",+Coupling,0.015456674473067917,0.42857142857142855,1.3080771979985704
+"ExtractionRefactoring, MajorContributor, +Coupling","ExtractionRefactoring, MajorContributor",+Coupling,0.018032786885245903,0.4184782608695652,1.2772710321036764
+"HighHunksCount, LowChangeSet, +Coupling","LowChangeSet, HighHunksCount",+Coupling,0.04964871194379391,0.5247524752475247,1.6016390774173912
+"LowCodeChurn, HighHunksCount, +Coupling","LowCodeChurn, HighHunksCount",+Coupling,0.03957845433255269,0.5121212121212121,1.5630861871033421
+"HighHunksCount, MajorContributor, +Coupling","MajorContributor, HighHunksCount",+Coupling,0.11030444964871194,0.4081455805892548,1.2457338306762817
+"MinorContributor, HighHunksCount, +Coupling","MinorContributor, HighHunksCount",+Coupling,0.013583138173302109,0.3118279569892473,0.9517550938842645
+"LowCodeChurn, LowChangeSet, +Coupling","LowCodeChurn, LowChangeSet",+Coupling,0.10749414519906324,0.37135922330097093,1.133455241955072
+"LowChangeSet, MajorContributor, +Coupling","LowChangeSet, MajorContributor",+Coupling,0.09625292740046838,0.4321766561514196,1.319081001977528
+"LowCodeChurn, MajorContributor, +Coupling","LowCodeChurn, MajorContributor",+Coupling,0.08407494145199063,0.36896197327852004,1.1261384030731099
+"RenameRefactoring, MajorContributor, +Coupling","RenameRefactoring, MajorContributor",+Coupling,0.011241217798594848,0.384,1.172037169406719
+"+Size, +NumPullRequests, +WordsInDiscussion","+NumPullRequests, +WordsInDiscussion",+Size,0.07049180327868852,0.31584470094438616,0.8525011839649361
+"+Size, +NumPullRequests, +WordsPerComment","+NumPullRequests, +WordsPerComment",+Size,0.03700234192037471,0.4202127659574468,1.1342025983807191
+"+Size, +NumPullRequests, ExtractionRefactoring","ExtractionRefactoring, +NumPullRequests",+Size,0.018032786885245903,0.5877862595419848,1.586502735931906
+"+Size, +NumPullRequests, HighHunksCount","+NumPullRequests, HighHunksCount",+Size,0.08103044496487119,0.3940774487471526,1.063660370512226
+"+Size, +NumPullRequests, LowChangeSet","+NumPullRequests, LowChangeSet",+Size,0.09578454332552694,0.5049382716049383,1.3628864853053644
+"+Size, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests",+Size,0.09133489461358314,0.43820224719101125,1.1827582778164463
+"+Size, +NumPullRequests, MajorContributor","+NumPullRequests, MajorContributor",+Size,0.17353629976580795,0.385736595523165,1.0411474480934986
+"ExtractionRefactoring, +NumPullRequests, -Cohesion","ExtractionRefactoring, +NumPullRequests",-Cohesion,0.014519906323185013,0.47328244274809167,2.5042329994229884
+"ExtractionRefactoring, +NumPullRequests, -Complexity","ExtractionRefactoring, +NumPullRequests",-Complexity,0.011475409836065573,0.37404580152671757,2.173027989821883
+"+Size, +WordsInDiscussion, +WordsPerComment","+WordsPerComment, +WordsInDiscussion",+Size,0.04590163934426229,0.4024640657084189,1.0862968145227236
+"+Size, +WordsInDiscussion, ExtractionRefactoring","ExtractionRefactoring, +WordsInDiscussion",+Size,0.010304449648711944,0.5569620253164557,1.5033045816063626
+"+Size, +WordsInDiscussion, HighHunksCount","+WordsInDiscussion, HighHunksCount",+Size,0.03770491803278689,0.3354166666666667,0.9053281710914455
+"+Size, +WordsInDiscussion, LowChangeSet","+WordsInDiscussion, LowChangeSet",+Size,0.042388758782201406,0.46770025839793283,1.2623768036404381
+"+Size, LowCodeChurn, +WordsInDiscussion","LowCodeChurn, +WordsInDiscussion",+Size,0.041686182669789226,0.41784037558685444,1.1277992438406248
+"+Size, +WordsInDiscussion, MajorContributor","+WordsInDiscussion, MajorContributor",+Size,0.06744730679156909,0.3453237410071942,0.9320685044884446
+"+Size, +WordsPerComment, HighHunksCount","+WordsPerComment, HighHunksCount",+Size,0.020843091334894613,0.5028248587570621,1.3571821408929552
+"+Size, +WordsPerComment, LowChangeSet","+WordsPerComment, LowChangeSet",+Size,0.02529274004683841,0.5,1.3495575221238938
+"+Size, LowCodeChurn, +WordsPerComment","LowCodeChurn, +WordsPerComment",+Size,0.02622950819672131,0.45714285714285713,1.2338811630847029
+"+Size, +WordsPerComment, MajorContributor","+WordsPerComment, MajorContributor",+Size,0.03325526932084309,0.4947735191637631,1.335450649070334
+"+Size, -Cohesion, ExtractionRefactoring",ExtractionRefactoring,"+Size, -Cohesion",0.01686182669789227,0.34123222748815163,2.4447342472724958
+"+Size, LowChangeSet, -WordsPerComment","LowChangeSet, -WordsPerComment",+Size,0.010772833723653397,0.43809523809523815,1.1824694479561737
+"+Size, LowCodeChurn, -WordsPerComment","LowCodeChurn, -WordsPerComment",+Size,0.010070257611241218,0.37391304347826093,1.009234320892651
+"+Size, ExtractionRefactoring, HighHunksCount","ExtractionRefactoring, HighHunksCount",+Size,0.02107728337236534,0.5844155844155844,1.5774048959889666
+"+Size, LowChangeSet, ExtractionRefactoring","ExtractionRefactoring, LowChangeSet",+Size,0.014519906323185013,0.746987951807229,2.016206418594733
+"+Size, LowCodeChurn, ExtractionRefactoring","ExtractionRefactoring, LowCodeChurn",+Size,0.012412177985948477,0.6883116883116882,1.8578324330536717
+"+Size, ExtractionRefactoring, MajorContributor","ExtractionRefactoring, MajorContributor",+Size,0.026463700234192037,0.6141304347826086,1.6576086956521738
+"+Size, LowChangeSet, HighHunksCount","LowChangeSet, HighHunksCount",+Size,0.05644028103044497,0.5965346534653465,1.6101156575834574
+"+Size, LowCodeChurn, HighHunksCount","LowCodeChurn, HighHunksCount",+Size,0.04543325526932084,0.5878787878787879,1.5867524805577904
+"+Size, MajorContributor, HighHunksCount","MajorContributor, HighHunksCount",+Size,0.12271662763466042,0.4540727902946274,1.2255946994677995
+"MinorContributor, +Size, HighHunksCount","MinorContributor, HighHunksCount",+Size,0.013114754098360656,0.30107526881720426,0.8126367875154629
+"+Size, RenameRefactoring, HighHunksCount","RenameRefactoring, HighHunksCount",+Size,0.01053864168618267,0.4945054945054945,1.334727219682972
+"+Size, LowCodeChurn, LowChangeSet","LowCodeChurn, LowChangeSet",+Size,0.1451990632318501,0.5016181229773463,1.3539250221954922
+"+Size, LowChangeSet, MajorContributor","LowChangeSet, MajorContributor",+Size,0.12903981264637002,0.5793901156677181,1.5638405776872037
+"+Size, LowChangeSet, MinorContributor","LowChangeSet, MinorContributor",+Size,0.041217798594847775,0.36065573770491804,0.9734513274336284
+"+Size, LowCodeChurn, MajorContributor","LowCodeChurn, MajorContributor",+Size,0.11545667447306791,0.5066803699897225,1.3675886092642953
+"+Size, LowCodeChurn, MinorContributor","LowCodeChurn, MinorContributor",+Size,0.040983606557377046,0.3234750462107209,0.873096363666105
+"+Size, RenameRefactoring, MajorContributor","RenameRefactoring, MajorContributor",+Size,0.01522248243559719,0.5199999999999999,1.4035398230088494
+"+WordsPerComment, -Cohesion, HighHunksCount","+WordsPerComment, HighHunksCount",-Cohesion,0.014519906323185013,0.3502824858757062,1.8534153837537368
+"+WordsPerComment, -Cohesion, MajorContributor","+WordsPerComment, MajorContributor",-Cohesion,0.020608899297423888,0.3066202090592335,1.6223894580953246
+"ExtractionRefactoring, -Cohesion, HighHunksCount","ExtractionRefactoring, HighHunksCount",-Cohesion,0.01873536299765808,0.5194805194805194,2.74867635462431
+"ExtractionRefactoring, LowChangeSet, -Cohesion","ExtractionRefactoring, LowChangeSet",-Cohesion,0.01053864168618267,0.5421686746987951,2.8687239664979622
+"ExtractionRefactoring, -Cohesion, MajorContributor","ExtractionRefactoring, MajorContributor",-Cohesion,0.021311475409836064,0.49456521739130427,2.616844458811486
+"LowChangeSet, -Cohesion, HighHunksCount","LowChangeSet, HighHunksCount",-Cohesion,0.03114754098360656,0.3292079207920792,1.7419056031997253
+"LowCodeChurn, -Cohesion, HighHunksCount","LowCodeChurn, HighHunksCount",-Cohesion,0.023185011709601872,0.3,1.587360594795539
+"ExtractionRefactoring, HighHunksCount, -Complexity","ExtractionRefactoring, HighHunksCount",-Complexity,0.014519906323185013,0.40259740259740256,2.338899196042053
+"ExtractionRefactoring, MajorContributor, -Complexity","ExtractionRefactoring, MajorContributor",-Complexity,0.01592505854800937,0.3695652173913044,2.1469979296066253
+"+Contributor, +NumPullRequests, +WordsPerComment, +Complexity","+Contributor, +NumPullRequests, +WordsPerComment",+Complexity,0.020608899297423888,0.33460076045627374,1.1778608797595127
+"+Contributor, +NumPullRequests, LowChangeSet, +Complexity","+Contributor, +NumPullRequests, LowChangeSet",+Complexity,0.03442622950819672,0.39095744680851063,1.376247566259143
+"LowCodeChurn, +Contributor, +NumPullRequests, +Complexity","+Contributor, +NumPullRequests, LowCodeChurn",+Complexity,0.030210772833723653,0.32908163265306123,1.1584324578965963
+"+Contributor, +NumPullRequests, MajorContributor, +Complexity","+Contributor, +NumPullRequests, MajorContributor",+Complexity,0.040749414519906324,0.3774403470715835,1.3286647007383856
+"+Size, +Contributor, LowChangeSet, +Complexity","+Contributor, LowChangeSet","+Size, +Complexity",0.053395784543325525,0.3444108761329305,1.4765406035016195
+"+Size, +Contributor, MajorContributor, +Complexity","+Contributor, MajorContributor","+Size, +Complexity",0.0648711943793911,0.37584803256445043,1.6113163645082362
+"+WordsPerComment, +Contributor, +WordsInDiscussion, +Complexity","+WordsPerComment, +Contributor, +WordsInDiscussion",+Complexity,0.026932084309133488,0.3402366863905325,1.1977004541529874
+"+Contributor, +WordsInDiscussion, +Complexity, HighHunksCount","+Contributor, +WordsInDiscussion, HighHunksCount",+Complexity,0.017330210772833723,0.3217391304347826,1.1325853973260689
+"+Contributor, +WordsInDiscussion, +Complexity, LowChangeSet","+Contributor, +WordsInDiscussion, LowChangeSet",+Complexity,0.020140515222482436,0.38392857142857145,1.351504534212696
+"+Contributor, LowCodeChurn, +WordsInDiscussion, +Complexity","+Contributor, +WordsInDiscussion, LowCodeChurn",+Complexity,0.01873536299765808,0.3041825095057034,1.0707826179631934
+"+Contributor, MajorContributor, +WordsInDiscussion, +Complexity","+Contributor, +WordsInDiscussion, MajorContributor",+Complexity,0.02529274004683841,0.35064935064935066,1.2343550925578954
+"+Contributor, +WordsPerComment, +Complexity, HighHunksCount","+Contributor, +WordsPerComment, HighHunksCount",+Complexity,0.014754098360655738,0.4666666666666667,1.6427589997251992
+"+Contributor, +WordsPerComment, +Complexity, LowChangeSet","+Contributor, +WordsPerComment, LowChangeSet",+Complexity,0.01405152224824356,0.425531914893617,1.497956534703829
+"+Contributor, LowCodeChurn, +WordsPerComment, +Complexity","+Contributor, +WordsPerComment, LowCodeChurn",+Complexity,0.013817330210772834,0.3333333333333333,1.1733992855179993
+"+Contributor, MajorContributor, +WordsPerComment, +Complexity","+Contributor, +WordsPerComment, MajorContributor",+Complexity,0.01920374707259953,0.5125,1.804101401483924
+"+Contributor, LowChangeSet, +Complexity, HighHunksCount","+Contributor, LowChangeSet, HighHunksCount",+Complexity,0.021545667447306793,0.5,1.7600989282769992
+"+Contributor, LowCodeChurn, +Complexity, HighHunksCount","+Contributor, LowCodeChurn, HighHunksCount",+Complexity,0.017330210772833723,0.49664429530201337,1.7482861837919184
+"+Contributor, MajorContributor, +Complexity, HighHunksCount","+Contributor, MajorContributor, HighHunksCount",+Complexity,0.034192037470725994,0.38522427440633245,1.3560656650577407
+"+Contributor, LowCodeChurn, LowChangeSet, +Complexity","+Contributor, LowChangeSet, LowCodeChurn",+Complexity,0.054332552693208434,0.40069084628670126,1.4105110582392535
+"+Contributor, MajorContributor, LowChangeSet, +Complexity","+Contributor, LowChangeSet, MajorContributor",+Complexity,0.03864168618266979,0.6395348837209303,2.2512893268659293
+"+Contributor, LowCodeChurn, MajorContributor, +Complexity","+Contributor, MajorContributor, LowCodeChurn",+Complexity,0.034894613583138175,0.6260504201680672,2.20382134717036
+"HighHunksCount, LowChangeSet, +Complexity, +Coupling","LowChangeSet, HighHunksCount","+Complexity, +Coupling",0.03395784543325527,0.3589108910891089,2.183118952920933
+"LowCodeChurn, HighHunksCount, +Complexity, +Coupling","LowCodeChurn, HighHunksCount","+Complexity, +Coupling",0.026697892271662763,0.34545454545454546,2.1012691012691014
+"+Size, +NumPullRequests, LowChangeSet, +Complexity","+NumPullRequests, LowChangeSet","+Size, +Complexity",0.06252927400468385,0.32962962962962966,1.413171203331846
+"+WordsPerComment, +NumPullRequests, +WordsInDiscussion, +Complexity","+WordsPerComment, +NumPullRequests, +WordsInDiscussion",+Complexity,0.028337236533957845,0.32180851063829785,1.1328296293697706
+"+NumPullRequests, +WordsInDiscussion, +Complexity, LowChangeSet","+NumPullRequests, +WordsInDiscussion, LowChangeSet",+Complexity,0.02763466042154567,0.37341772151898733,1.314504262890417
+"LowCodeChurn, +NumPullRequests, +WordsInDiscussion, +Complexity","LowCodeChurn, +NumPullRequests, +WordsInDiscussion",+Complexity,0.02505854800936768,0.311046511627907,1.0949452635211565
+"+NumPullRequests, +WordsPerComment, +Complexity, HighHunksCount","+NumPullRequests, +WordsPerComment, HighHunksCount",+Complexity,0.014519906323185013,0.4525547445255475,1.5930822416521746
+"+NumPullRequests, +WordsPerComment, +Complexity, LowChangeSet","+NumPullRequests, +WordsPerComment, LowChangeSet",+Complexity,0.01756440281030445,0.43859649122807015,1.543946428313157
+"LowCodeChurn, +NumPullRequests, +WordsPerComment, +Complexity","LowCodeChurn, +NumPullRequests, +WordsPerComment",+Complexity,0.016159250585480095,0.36125654450261785,1.2716945136242195
+"MajorContributor, +NumPullRequests, +WordsPerComment, +Complexity","+NumPullRequests, +WordsPerComment, MajorContributor",+Complexity,0.02271662763466042,0.4449541284403669,1.566326569200632
+"+NumPullRequests, LowChangeSet, +Complexity, HighHunksCount","+NumPullRequests, LowChangeSet, HighHunksCount",+Complexity,0.02810304449648712,0.5194805194805194,1.8286742111968821
+"LowCodeChurn, +NumPullRequests, +Complexity, HighHunksCount","LowCodeChurn, +NumPullRequests, HighHunksCount",+Complexity,0.022482435597189696,0.4873096446700507,1.715426366645603
+"MajorContributor, +NumPullRequests, +Complexity, HighHunksCount","+NumPullRequests, MajorContributor, HighHunksCount",+Complexity,0.05807962529274005,0.3360433604336044,1.182939117107577
+"LowCodeChurn, +NumPullRequests, LowChangeSet, +Complexity","LowCodeChurn, +NumPullRequests, LowChangeSet",+Complexity,0.06416861826697892,0.3821478382147838,1.345236000970426
+"MajorContributor, +NumPullRequests, LowChangeSet, +Complexity","+NumPullRequests, LowChangeSet, MajorContributor",+Complexity,0.059484777517564404,0.4941634241245136,1.739553026390497
+"LowCodeChurn, +NumPullRequests, MajorContributor, +Complexity","LowCodeChurn, +NumPullRequests, MajorContributor",+Complexity,0.05245901639344262,0.4036036036036036,1.420764540302875
+"+Size, +WordsInDiscussion, +Complexity, LowChangeSet","+WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.029976580796252927,0.330749354005168,1.4179716281145254
+"+Size, +WordsPerComment, +Complexity, HighHunksCount","+WordsPerComment, HighHunksCount","+Size, +Complexity",0.01569086651053864,0.37853107344632764,1.6228189594536335
+"+Size, +WordsPerComment, +Complexity, LowChangeSet","+WordsPerComment, LowChangeSet","+Size, +Complexity",0.01873536299765808,0.37037037037037035,1.587832812732411
+"+Size, LowCodeChurn, +WordsPerComment, +Complexity","LowCodeChurn, +WordsPerComment","+Size, +Complexity",0.01756440281030445,0.3061224489795918,1.312392426850258
+"+Size, MajorContributor, +WordsPerComment, +Complexity","+WordsPerComment, MajorContributor","+Size, +Complexity",0.025995316159250586,0.38675958188153314,1.6580957978254482
+"+Size, ExtractionRefactoring, +Complexity, HighHunksCount","ExtractionRefactoring, HighHunksCount","+Size, +Complexity",0.012177985948477752,0.33766233766233766,1.447608616283315
+"+Size, MajorContributor, ExtractionRefactoring, +Complexity","ExtractionRefactoring, MajorContributor","+Size, +Complexity",0.01569086651053864,0.36413043478260865,1.5610812816483324
+"+Size, LowChangeSet, +Complexity, HighHunksCount","LowChangeSet, HighHunksCount","+Size, +Complexity",0.041686182669789226,0.44059405940594054,1.888892202473259
+"+Size, LowCodeChurn, +Complexity, HighHunksCount","LowCodeChurn, HighHunksCount","+Size, +Complexity",0.03208430913348946,0.4151515151515151,1.7798162346355115
+"+Size, MajorContributor, +Complexity, HighHunksCount","MajorContributor, HighHunksCount","+Size, +Complexity",0.08524590163934426,0.31542461005199307,1.3522721736164762
+"+Size, LowCodeChurn, LowChangeSet, +Complexity","LowCodeChurn, LowChangeSet","+Size, +Complexity",0.09531615925058548,0.32928802588996764,1.4117066973395198
+"+Size, MajorContributor, LowChangeSet, +Complexity","LowChangeSet, MajorContributor","+Size, +Complexity",0.09227166276346604,0.4143007360672976,1.7761688182804827
+"+Size, LowCodeChurn, MajorContributor, +Complexity","LowCodeChurn, MajorContributor","+Size, +Complexity",0.07985948477751756,0.3504624871531346,1.5024847591806072
+"+WordsPerComment, +WordsInDiscussion, +Complexity, HighHunksCount","+WordsPerComment, +WordsInDiscussion, HighHunksCount",+Complexity,0.01826697892271663,0.4406779661016949,1.551273631701762
+"+WordsPerComment, +WordsInDiscussion, +Complexity, LowChangeSet","+WordsPerComment, +WordsInDiscussion, LowChangeSet",+Complexity,0.020608899297423888,0.4074074074074074,1.434154682299777
+"+WordsPerComment, LowCodeChurn, +WordsInDiscussion, +Complexity","+WordsPerComment, LowCodeChurn, +WordsInDiscussion",+Complexity,0.020140515222482436,0.3510204081632653,1.235661288423036
+"+WordsPerComment, MajorContributor, +WordsInDiscussion, +Complexity","+WordsPerComment, +WordsInDiscussion, MajorContributor",+Complexity,0.029039812646370025,0.4320557491289199,1.5209217219954558
+"LowChangeSet, +WordsInDiscussion, +Complexity, HighHunksCount","LowChangeSet, +WordsInDiscussion, HighHunksCount",+Complexity,0.01288056206088993,0.5045871559633027,1.7762466248666964
+"LowCodeChurn, +WordsInDiscussion, +Complexity, HighHunksCount","LowCodeChurn, +WordsInDiscussion, HighHunksCount",+Complexity,0.010772833723653397,0.46,1.6192910140148393
+"MajorContributor, +WordsInDiscussion, +Complexity, HighHunksCount","+WordsInDiscussion, MajorContributor, HighHunksCount",+Complexity,0.030679156908665104,0.30823529411764705,1.0850492216672325
+"LowCodeChurn, +WordsInDiscussion, +Complexity, LowChangeSet","LowCodeChurn, +WordsInDiscussion, LowChangeSet",+Complexity,0.029039812646370025,0.3522727272727273,1.240069699467886
+"MajorContributor, +WordsInDiscussion, +Complexity, LowChangeSet","+WordsInDiscussion, MajorContributor, LowChangeSet",+Complexity,0.02622950819672131,0.49777777777777776,1.7522762663735458
+"LowCodeChurn, MajorContributor, +WordsInDiscussion, +Complexity","LowCodeChurn, +WordsInDiscussion, MajorContributor",+Complexity,0.0234192037470726,0.4566210045662101,1.6073962815315062
+"MajorContributor, +WordsPerComment, +Complexity, HighHunksCount","+WordsPerComment, MajorContributor, HighHunksCount",+Complexity,0.016159250585480095,0.4928571428571429,1.7349546578730421
+"LowCodeChurn, +WordsPerComment, +Complexity, LowChangeSet","LowCodeChurn, +WordsPerComment, LowChangeSet",+Complexity,0.018032786885245903,0.39086294416243655,1.3759148982469942
+"MajorContributor, +WordsPerComment, +Complexity, LowChangeSet","+WordsPerComment, MajorContributor, LowChangeSet",+Complexity,0.015456674473067917,0.5689655172413793,2.0028711942462407
+"LowCodeChurn, MajorContributor, +WordsPerComment, +Complexity","LowCodeChurn, +WordsPerComment, MajorContributor",+Complexity,0.01405152224824356,0.5454545454545454,1.9201079217567263
+"ExtractionRefactoring, MajorContributor, +Complexity, HighHunksCount","ExtractionRefactoring, MajorContributor, HighHunksCount",+Complexity,0.01288056206088993,0.3691275167785235,1.2994018933588585
+"LowCodeChurn, LowChangeSet, +Complexity, HighHunksCount","LowCodeChurn, LowChangeSet, HighHunksCount",+Complexity,0.036065573770491806,0.5032679738562091,1.771602842840901
+"MajorContributor, LowChangeSet, +Complexity, HighHunksCount","LowChangeSet, MajorContributor, HighHunksCount",+Complexity,0.04449648711943794,0.5637982195845698,1.984681284110563
+"LowCodeChurn, MajorContributor, +Complexity, HighHunksCount","LowCodeChurn, MajorContributor, HighHunksCount",+Complexity,0.03442622950819672,0.5404411764705882,1.9024598710052858
+"LowCodeChurn, MajorContributor, LowChangeSet, +Complexity","LowCodeChurn, LowChangeSet, MajorContributor",+Complexity,0.08782201405152225,0.4716981132075471,1.6604706870537727
+"+Contributor, +NumPullRequests, +WordsPerComment, +Coupling","+Contributor, +NumPullRequests, +WordsPerComment",+Coupling,0.02177985948477752,0.35361216730038025,1.0792880302877939
+"+Contributor, +NumPullRequests, HighHunksCount, +Coupling","+Contributor, +NumPullRequests, HighHunksCount",+Coupling,0.02576112412177986,0.3323262839879154,1.0143196802204424
+"+Contributor, +NumPullRequests, LowChangeSet, +Coupling","+Contributor, +NumPullRequests, LowChangeSet",+Coupling,0.03395784543325527,0.38563829787234044,1.177037549617508
+"+Contributor, +NumPullRequests, LowCodeChurn, +Coupling","+Contributor, +NumPullRequests, LowCodeChurn",+Coupling,0.03185011709601874,0.34693877551020413,1.0589196364750333
+"+Contributor, +NumPullRequests, MajorContributor, +Coupling","+Contributor, +NumPullRequests, MajorContributor",+Coupling,0.04028103044496487,0.3731019522776573,1.13877436470736
+"+Size, +Contributor, LowChangeSet, +Coupling","+Contributor, LowChangeSet","+Size, +Coupling",0.047775175644028105,0.3081570996978852,1.46692398629874
+"+Size, +Contributor, MajorContributor, +Coupling","+Contributor, MajorContributor","+Size, +Coupling",0.05690866510538642,0.32971506105834464,1.569546611727014
+"+WordsPerComment, +Contributor, +WordsInDiscussion, +Coupling","+WordsPerComment, +Contributor, +WordsInDiscussion",+Coupling,0.02622950819672131,0.33136094674556216,1.0113732970718732
+"+Contributor, LowChangeSet, +WordsInDiscussion, +Coupling","+Contributor, +WordsInDiscussion, LowChangeSet",+Coupling,0.018969555035128805,0.36160714285714285,1.1036901358112938
+"+Contributor, +WordsInDiscussion, LowCodeChurn, +Coupling","+Contributor, +WordsInDiscussion, LowCodeChurn",+Coupling,0.018501170960187354,0.30038022813688214,0.9168145633627497
+"+Contributor, HighHunksCount, +WordsPerComment, +Coupling","+Contributor, +WordsPerComment, HighHunksCount",+Coupling,0.0117096018735363,0.3703703703703704,1.1304370846901228
+"+Contributor, LowChangeSet, +WordsPerComment, +Coupling","+Contributor, +WordsPerComment, LowChangeSet",+Coupling,0.013817330210772834,0.4184397163120568,1.2771533871711813
+"+Contributor, +WordsPerComment, LowCodeChurn, +Coupling","+Contributor, +WordsPerComment, LowCodeChurn",+Coupling,0.013817330210772834,0.3333333333333333,1.0173933762211103
+"+Contributor, +WordsPerComment, MajorContributor, +Coupling","+Contributor, +WordsPerComment, MajorContributor",+Coupling,0.013817330210772834,0.36875,1.1254914224446033
+"+Contributor, HighHunksCount, LowChangeSet, +Coupling","+Contributor, LowChangeSet, HighHunksCount",+Coupling,0.023653395784543327,0.5489130434782609,1.6753814836684588
+"+Contributor, HighHunksCount, LowCodeChurn, +Coupling","+Contributor, LowCodeChurn, HighHunksCount",+Coupling,0.01920374707259953,0.5503355704697986,1.6797232922845178
+"+Contributor, HighHunksCount, MajorContributor, +Coupling","+Contributor, MajorContributor, HighHunksCount",+Coupling,0.034660421545667446,0.39050131926121373,1.191880366865892
+"MinorContributor, +Contributor, HighHunksCount, +Coupling","MinorContributor, +Contributor, HighHunksCount",+Coupling,0.010070257611241218,0.3524590163934426,1.075768406004289
+"+Contributor, LowChangeSet, LowCodeChurn, +Coupling","+Contributor, LowChangeSet, LowCodeChurn",+Coupling,0.05503512880562061,0.4058721934369603,1.23879504358529
+"+Contributor, LowChangeSet, MajorContributor, +Coupling","+Contributor, LowChangeSet, MajorContributor",+Coupling,0.03583138173302108,0.5930232558139535,1.8100137972305803
+"+Contributor, MajorContributor, LowCodeChurn, +Coupling","+Contributor, MajorContributor, LowCodeChurn",+Coupling,0.03208430913348946,0.5756302521008403,1.7569272169196484
+"+Size, +Contributor, +NumPullRequests, +WordsInDiscussion","+Contributor, +NumPullRequests, +WordsInDiscussion",+Size,0.03723653395784543,0.3361522198731501,0.9073135138169095
+"+Size, +Contributor, +NumPullRequests, +WordsPerComment","+Contributor, +NumPullRequests, +WordsPerComment",+Size,0.027400468384074943,0.4448669201520913,1.2007469968706888
+"+Size, +Contributor, +NumPullRequests, HighHunksCount","+Contributor, +NumPullRequests, HighHunksCount",+Size,0.03278688524590164,0.4229607250755287,1.141619656177312
+"+Size, +Contributor, +NumPullRequests, LowChangeSet","+Contributor, +NumPullRequests, LowChangeSet",+Size,0.04449648711943794,0.5053191489361702,1.3639145170401055
+"+Size, +Contributor, +NumPullRequests, LowCodeChurn","+Contributor, +NumPullRequests, LowCodeChurn",+Size,0.04262295081967213,0.4642857142857143,1.2531605562579013
+"+Size, +Contributor, +NumPullRequests, MajorContributor","+Contributor, +NumPullRequests, MajorContributor",+Size,0.05058548009367682,0.46854663774403477,1.2646612788666425
+"+Contributor, +NumPullRequests, LowChangeSet, -Cohesion","+Contributor, +NumPullRequests, LowChangeSet",-Cohesion,0.027166276346604217,0.30851063829787234,1.6323921010308735
+"+Size, +Contributor, +WordsInDiscussion, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion",+Size,0.033489461358313814,0.423076923076923,1.141933287950987
+"+Size, +Contributor, +WordsInDiscussion, HighHunksCount","+Contributor, +WordsInDiscussion, HighHunksCount",+Size,0.019437939110070256,0.3608695652173913,0.9740284724894189
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet","+Contributor, +WordsInDiscussion, LowChangeSet",+Size,0.025995316159250586,0.4955357142857143,1.3375079013906448
+"+Size, +Contributor, +WordsInDiscussion, LowCodeChurn","+Contributor, +WordsInDiscussion, LowCodeChurn",+Size,0.025995316159250586,0.4220532319391635,1.139170227800397
+"+Size, +Contributor, +WordsInDiscussion, MajorContributor","+Contributor, +WordsInDiscussion, MajorContributor",+Size,0.029508196721311476,0.40909090909090906,1.1041834271922766
+"+Size, +Contributor, +WordsPerComment, HighHunksCount","+Contributor, +WordsPerComment, HighHunksCount",+Size,0.016627634660421546,0.5259259259259259,1.4195345788266143
+"+Size, +Contributor, +WordsPerComment, LowChangeSet","+Contributor, +WordsPerComment, LowChangeSet",+Size,0.017096018735362997,0.5177304964539007,1.3974141718445992
+"+Size, +Contributor, +WordsPerComment, LowCodeChurn","+Contributor, +WordsPerComment, LowCodeChurn",+Size,0.018501170960187354,0.4463276836158192,1.2046897655117244
+"+Size, +Contributor, +WordsPerComment, MajorContributor","+Contributor, +WordsPerComment, MajorContributor",+Size,0.02177985948477752,0.58125,1.5688606194690267
+"+Size, +Contributor, LowChangeSet, HighHunksCount","+Contributor, LowChangeSet, HighHunksCount",+Size,0.025995316159250586,0.6032608695652174,1.6282704886494805
+"+Size, +Contributor, LowCodeChurn, HighHunksCount","+Contributor, LowCodeChurn, HighHunksCount",+Size,0.020608899297423888,0.5906040268456375,1.5941082140523843
+"+Size, +Contributor, MajorContributor, HighHunksCount","+Contributor, MajorContributor, HighHunksCount",+Size,0.04262295081967213,0.48021108179419525,1.2961449552852173
+"MinorContributor, +Size, +Contributor, HighHunksCount","MinorContributor, +Contributor, HighHunksCount",+Size,0.010070257611241218,0.3524590163934426,0.9513274336283186
+"+Size, +Contributor, LowChangeSet, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn",+Size,0.06955503512880562,0.5129533678756477,1.3845201522307307
+"+Size, +Contributor, LowChangeSet, MajorContributor","+Contributor, LowChangeSet, MajorContributor",+Size,0.04496487119437939,0.7441860465116279,2.0086437538588187
+"+Size, +Contributor, LowChangeSet, MinorContributor","+Contributor, LowChangeSet, MinorContributor",+Size,0.03653395784543326,0.38613861386138615,1.0422325418382548
+"+Size, +Contributor, MajorContributor, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn",+Size,0.040046838407494144,0.7184873949579832,1.9392801368334944
+"+Size, +Contributor, LowCodeChurn, MinorContributor","+Contributor, LowCodeChurn, MinorContributor",+Size,0.03653395784543326,0.3428571428571429,0.9254108723135274
+"+Contributor, +WordsPerComment, -Cohesion, HighHunksCount","+Contributor, +WordsPerComment, HighHunksCount",-Cohesion,0.012177985948477752,0.3851851851851852,2.0380926155399512
+"+Contributor, +WordsPerComment, -Cohesion, LowChangeSet","+Contributor, +WordsPerComment, LowChangeSet",-Cohesion,0.010070257611241218,0.30496453900709225,1.6136289734328177
+"+Contributor, +WordsPerComment, -Cohesion, MajorContributor","+Contributor, +WordsPerComment, MajorContributor",-Cohesion,0.01522248243559719,0.40625,2.1495508054522925
+"+Contributor, LowChangeSet, -Cohesion, HighHunksCount","+Contributor, LowChangeSet, HighHunksCount",-Cohesion,0.016159250585480095,0.375,1.9842007434944238
+"+Contributor, -Cohesion, LowCodeChurn, HighHunksCount","+Contributor, LowCodeChurn, HighHunksCount",-Cohesion,0.012412177985948477,0.35570469798657717,1.8821054032251359
+"+Contributor, -Cohesion, MajorContributor, HighHunksCount","+Contributor, MajorContributor, HighHunksCount",-Cohesion,0.026932084309133488,0.3034300791556728,1.6055098364246878
+"+Contributor, LowChangeSet, -Cohesion, MajorContributor","+Contributor, LowChangeSet, MajorContributor",-Cohesion,0.02459016393442623,0.4069767441860465,2.1533961557303827
+"+Contributor, MajorContributor, -Cohesion, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn",-Cohesion,0.020843091334894613,0.3739495798319328,1.978642758218529
+"+WordsPerComment, +NumPullRequests, +WordsInDiscussion, +Coupling","+WordsPerComment, +NumPullRequests, +WordsInDiscussion",+Coupling,0.028805620608899296,0.32712765957446804,0.9984525420893342
+"LowChangeSet, +NumPullRequests, +WordsInDiscussion, +Coupling","+NumPullRequests, +WordsInDiscussion, LowChangeSet",+Coupling,0.026697892271662763,0.36075949367088606,1.101102957808923
+"LowCodeChurn, +NumPullRequests, +WordsInDiscussion, +Coupling","LowCodeChurn, +NumPullRequests, +WordsInDiscussion",+Coupling,0.02529274004683841,0.313953488372093,0.9582425985338365
+"+NumPullRequests, +WordsPerComment, HighHunksCount, +Coupling","+NumPullRequests, +WordsPerComment, HighHunksCount",+Coupling,0.012412177985948477,0.3868613138686131,1.1807704147383689
+"LowChangeSet, +NumPullRequests, +WordsPerComment, +Coupling","+NumPullRequests, +WordsPerComment, LowChangeSet",+Coupling,0.01686182669789227,0.4210526315789474,1.2851284752266658
+"LowCodeChurn, +NumPullRequests, +WordsPerComment, +Coupling","LowCodeChurn, +NumPullRequests, +WordsPerComment",+Coupling,0.01592505854800937,0.356020942408377,1.0866400458068406
+"+NumPullRequests, +WordsPerComment, MajorContributor, +Coupling","+NumPullRequests, +WordsPerComment, MajorContributor",+Coupling,0.017330210772833723,0.33944954128440363,1.0360611445921397
+"MinorContributor, +NumPullRequests, +WordsPerComment, +Coupling","+NumPullRequests, +WordsPerComment, MinorContributor",+Coupling,0.011475409836065573,0.310126582278481,0.9465621918006533
+"ExtractionRefactoring, +NumPullRequests, MajorContributor, +Coupling","ExtractionRefactoring, +NumPullRequests, MajorContributor",+Coupling,0.011007025761124122,0.3949579831932773,1.2054829079594669
+"+NumPullRequests, LowChangeSet, HighHunksCount, +Coupling","+NumPullRequests, LowChangeSet, HighHunksCount",+Coupling,0.02857142857142857,0.5281385281385281,1.6119739207659152
+"LowCodeChurn, +NumPullRequests, HighHunksCount, +Coupling","LowCodeChurn, +NumPullRequests, HighHunksCount",+Coupling,0.024355971896955503,0.5279187817258884,1.6113032151319109
+"+NumPullRequests, HighHunksCount, MajorContributor, +Coupling","+NumPullRequests, MajorContributor, HighHunksCount",+Coupling,0.06744730679156909,0.3902439024390244,1.1910946843564219
+"MinorContributor, +NumPullRequests, HighHunksCount, +Coupling","MinorContributor, +NumPullRequests, HighHunksCount",+Coupling,0.01053864168618267,0.3214285714285714,0.9810578984989278
+"LowCodeChurn, +NumPullRequests, LowChangeSet, +Coupling","LowCodeChurn, +NumPullRequests, LowChangeSet",+Coupling,0.06276346604215456,0.3737796373779637,1.1408427817040065
+"+NumPullRequests, LowChangeSet, MajorContributor, +Coupling","+NumPullRequests, LowChangeSet, MajorContributor",+Coupling,0.053629976580796254,0.44552529182879375,1.359823442536776
+"LowCodeChurn, +NumPullRequests, MajorContributor, +Coupling","LowCodeChurn, +NumPullRequests, MajorContributor",+Coupling,0.04847775175644028,0.37297297297297294,1.1383806966365937
+"+Size, LowChangeSet, +WordsPerComment, +Coupling","+WordsPerComment, LowChangeSet","+Size, +Coupling",0.016159250585480095,0.3194444444444445,1.520655270655271
+"+Size, HighHunksCount, ExtractionRefactoring, +Coupling","ExtractionRefactoring, HighHunksCount","+Size, +Coupling",0.01288056206088993,0.35714285714285715,1.7001114827201784
+"+Size, ExtractionRefactoring, MajorContributor, +Coupling","ExtractionRefactoring, MajorContributor","+Size, +Coupling",0.015456674473067917,0.358695652173913,1.7075032717754834
+"+Size, HighHunksCount, LowChangeSet, +Coupling","LowChangeSet, HighHunksCount","+Size, +Coupling",0.03911007025761124,0.41336633663366334,1.9677527953464242
+"+Size, LowCodeChurn, HighHunksCount, +Coupling","LowCodeChurn, HighHunksCount","+Size, +Coupling",0.03138173302107728,0.406060606060606,1.9329752373230633
+"+Size, LowChangeSet, MajorContributor, +Coupling","LowChangeSet, MajorContributor","+Size, +Coupling",0.08009367681498829,0.35962145110410093,1.7119103636728106
+"+Size, LowCodeChurn, MajorContributor, +Coupling","LowCodeChurn, MajorContributor","+Size, +Coupling",0.0702576112412178,0.3083247687564234,1.4677221433555496
+"+WordsPerComment, HighHunksCount, +WordsInDiscussion, +Coupling","+WordsPerComment, +WordsInDiscussion, HighHunksCount",+Coupling,0.01592505854800937,0.384180790960452,1.1725889759836527
+"+WordsPerComment, LowChangeSet, +WordsInDiscussion, +Coupling","+WordsPerComment, +WordsInDiscussion, LowChangeSet",+Coupling,0.01990632318501171,0.3935185185185185,1.2010894024832552
+"+WordsPerComment, LowCodeChurn, +WordsInDiscussion, +Coupling","+WordsPerComment, LowCodeChurn, +WordsInDiscussion",+Coupling,0.01920374707259953,0.33469387755102037,1.0215460022465026
+"+WordsPerComment, +WordsInDiscussion, MajorContributor, +Coupling","+WordsPerComment, +WordsInDiscussion, MajorContributor",+Coupling,0.022950819672131147,0.34146341463414637,1.0422078488118691
+"LowChangeSet, HighHunksCount, +WordsInDiscussion, +Coupling","LowChangeSet, +WordsInDiscussion, HighHunksCount",+Coupling,0.013114754098360656,0.5137614678899083,1.568092543166482
+"LowCodeChurn, HighHunksCount, +WordsInDiscussion, +Coupling","LowCodeChurn, +WordsInDiscussion, HighHunksCount",+Coupling,0.011241217798594848,0.48,1.465046461758399
+"LowChangeSet, +WordsInDiscussion, LowCodeChurn, +Coupling","LowCodeChurn, +WordsInDiscussion, LowChangeSet",+Coupling,0.02763466042154567,0.33522727272727276,1.023174020404185
+"LowChangeSet, +WordsInDiscussion, MajorContributor, +Coupling","+WordsInDiscussion, MajorContributor, LowChangeSet",+Coupling,0.022950819672131147,0.43555555555555553,1.329394011595584
+"LowCodeChurn, +WordsInDiscussion, MajorContributor, +Coupling","LowCodeChurn, +WordsInDiscussion, MajorContributor",+Coupling,0.020843091334894613,0.4063926940639269,1.2403837052558742
+"HighHunksCount, +WordsPerComment, MajorContributor, +Coupling","+WordsPerComment, MajorContributor, HighHunksCount",+Coupling,0.012412177985948477,0.37857142857142856,1.155468191565404
+"LowChangeSet, +WordsPerComment, LowCodeChurn, +Coupling","LowCodeChurn, +WordsPerComment, LowChangeSet",+Coupling,0.01756440281030445,0.38071065989847713,1.1619975109124356
+"LowChangeSet, +WordsPerComment, MajorContributor, +Coupling","+WordsPerComment, MajorContributor, LowChangeSet",+Coupling,0.014519906323185013,0.5344827586206896,1.6313376549752285
+"LowCodeChurn, +WordsPerComment, MajorContributor, +Coupling","LowCodeChurn, +WordsPerComment, MajorContributor",+Coupling,0.013348946135831381,0.5181818181818182,1.5815842484891807
+"ExtractionRefactoring, HighHunksCount, MajorContributor, +Coupling","ExtractionRefactoring, MajorContributor, HighHunksCount",+Coupling,0.014988290398126464,0.42953020134228187,1.3110035451976725
+"LowCodeChurn, HighHunksCount, LowChangeSet, +Coupling","LowCodeChurn, LowChangeSet, HighHunksCount",+Coupling,0.03793911007025761,0.5294117647058824,1.6158600681158812
+"HighHunksCount, LowChangeSet, MajorContributor, +Coupling","LowChangeSet, MajorContributor, HighHunksCount",+Coupling,0.04449648711943794,0.5637982195845698,1.7208137223917892
+"LowCodeChurn, HighHunksCount, MajorContributor, +Coupling","LowCodeChurn, MajorContributor, HighHunksCount",+Coupling,0.034894613583138175,0.5477941176470588,1.6719663204810158
+"LowCodeChurn, LowChangeSet, MajorContributor, +Coupling","LowCodeChurn, LowChangeSet, MajorContributor",+Coupling,0.07845433255269321,0.42138364779874216,1.2861387963549886
+"+Size, +NumPullRequests, +WordsInDiscussion, +WordsPerComment","+WordsPerComment, +NumPullRequests, +WordsInDiscussion",+Size,0.03700234192037471,0.4202127659574468,1.1342025983807191
+"+Size, +NumPullRequests, +WordsInDiscussion, HighHunksCount","+NumPullRequests, +WordsInDiscussion, HighHunksCount",+Size,0.03114754098360656,0.3463541666666667,0.9348497418879057
+"+Size, +NumPullRequests, +WordsInDiscussion, LowChangeSet","+NumPullRequests, +WordsInDiscussion, LowChangeSet",+Size,0.035362997658079626,0.4778481012658228,1.2897669989918226
+"+Size, LowCodeChurn, +NumPullRequests, +WordsInDiscussion","LowCodeChurn, +NumPullRequests, +WordsInDiscussion",+Size,0.03395784543325527,0.42151162790697677,1.1377083762090965
+"+Size, +NumPullRequests, +WordsInDiscussion, MajorContributor","+NumPullRequests, +WordsInDiscussion, MajorContributor",+Size,0.05503512880562061,0.3507462686567164,0.9467045304451194
+"+Size, +NumPullRequests, +WordsPerComment, HighHunksCount","+NumPullRequests, +WordsPerComment, HighHunksCount",+Size,0.017330210772833723,0.5401459854014599,1.4579161552871263
+"+Size, +NumPullRequests, +WordsPerComment, LowChangeSet","+NumPullRequests, +WordsPerComment, LowChangeSet",+Size,0.021311475409836064,0.5321637426900585,1.4363711638979455
+"+Size, LowCodeChurn, +NumPullRequests, +WordsPerComment","LowCodeChurn, +NumPullRequests, +WordsPerComment",+Size,0.021545667447306793,0.48167539267015713,1.3000972987999817
+"+Size, +NumPullRequests, +WordsPerComment, MajorContributor","+NumPullRequests, +WordsPerComment, MajorContributor",+Size,0.027400468384074943,0.536697247706422,1.4486076154907852
+"+Size, +NumPullRequests, -Cohesion, ExtractionRefactoring","ExtractionRefactoring, +NumPullRequests","+Size, -Cohesion",0.010304449648711944,0.33587786259541985,2.4063732773195348
+"+Size, +NumPullRequests, ExtractionRefactoring, HighHunksCount","ExtractionRefactoring, +NumPullRequests, HighHunksCount",+Size,0.013348946135831381,0.57,1.5384955752212388
+"+Size, +NumPullRequests, ExtractionRefactoring, MajorContributor","ExtractionRefactoring, +NumPullRequests, MajorContributor",+Size,0.01639344262295082,0.5882352941176471,1.5877147319104634
+"+Size, +NumPullRequests, LowChangeSet, HighHunksCount","+NumPullRequests, LowChangeSet, HighHunksCount",+Size,0.03325526932084309,0.6147186147186148,1.6591962609661726
+"+Size, LowCodeChurn, +NumPullRequests, HighHunksCount","LowCodeChurn, +NumPullRequests, HighHunksCount",+Size,0.02763466042154567,0.5989847715736041,1.6167288082296394
+"+Size, +NumPullRequests, MajorContributor, HighHunksCount","+NumPullRequests, MajorContributor, HighHunksCount",+Size,0.07189695550351288,0.41598915989159896,1.1228025997074131
+"+Size, LowCodeChurn, +NumPullRequests, LowChangeSet","LowCodeChurn, +NumPullRequests, LowChangeSet",+Size,0.08337236533957845,0.496513249651325,1.3401463818022488
+"+Size, +NumPullRequests, LowChangeSet, MajorContributor","+NumPullRequests, LowChangeSet, MajorContributor",+Size,0.07166276346604215,0.5953307392996109,1.6068661547467373
+"+Size, +NumPullRequests, LowChangeSet, MinorContributor","+NumPullRequests, LowChangeSet, MinorContributor",+Size,0.024121779859484778,0.34797297297297297,0.9392190863429801
+"+Size, LowCodeChurn, +NumPullRequests, MajorContributor","LowCodeChurn, +NumPullRequests, MajorContributor",+Size,0.06557377049180328,0.5045045045045045,1.3617156979988838
+"+Size, LowCodeChurn, +NumPullRequests, MinorContributor","LowCodeChurn, +NumPullRequests, MinorContributor",+Size,0.02576112412177986,0.3283582089552239,0.8862765816933034
+"+NumPullRequests, +WordsPerComment, -Cohesion, HighHunksCount","+NumPullRequests, +WordsPerComment, HighHunksCount",-Cohesion,0.0117096018735363,0.3649635036496351,1.9310956141064954
+"+NumPullRequests, +WordsPerComment, -Cohesion, MajorContributor","+NumPullRequests, +WordsPerComment, MajorContributor",-Cohesion,0.016627634660421546,0.3256880733944954,1.723281379670998
+"ExtractionRefactoring, +NumPullRequests, -Cohesion, HighHunksCount","ExtractionRefactoring, +NumPullRequests, HighHunksCount",-Cohesion,0.011943793911007026,0.51,2.6985130111524165
+"ExtractionRefactoring, +NumPullRequests, -Cohesion, MajorContributor","ExtractionRefactoring, +NumPullRequests, MajorContributor",-Cohesion,0.013348946135831381,0.4789915966386554,2.534441285808003
+"+NumPullRequests, LowChangeSet, -Cohesion, HighHunksCount","+NumPullRequests, LowChangeSet, HighHunksCount",-Cohesion,0.019437939110070256,0.3593073593073593,1.9011678119484812
+"LowCodeChurn, +NumPullRequests, -Cohesion, HighHunksCount","LowCodeChurn, +NumPullRequests, HighHunksCount",-Cohesion,0.014285714285714285,0.3096446700507614,1.6383924920901503
+"+NumPullRequests, LowChangeSet, -Cohesion, MajorContributor","+NumPullRequests, LowChangeSet, MajorContributor",-Cohesion,0.03793911007025761,0.3151750972762646,1.667655099590644
+"ExtractionRefactoring, +NumPullRequests, MajorContributor, -Complexity","ExtractionRefactoring, +NumPullRequests, MajorContributor",-Complexity,0.010772833723653397,0.3865546218487395,2.245698279311725
+"+Size, +WordsInDiscussion, +WordsPerComment, HighHunksCount","+WordsPerComment, +WordsInDiscussion, HighHunksCount",+Size,0.020843091334894613,0.5028248587570621,1.3571821408929552
+"+Size, +WordsInDiscussion, +WordsPerComment, LowChangeSet","+WordsPerComment, +WordsInDiscussion, LowChangeSet",+Size,0.02529274004683841,0.5,1.3495575221238938
+"+Size, LowCodeChurn, +WordsInDiscussion, +WordsPerComment","+WordsPerComment, LowCodeChurn, +WordsInDiscussion",+Size,0.02622950819672131,0.45714285714285713,1.2338811630847029
+"+Size, +WordsInDiscussion, +WordsPerComment, MajorContributor","+WordsPerComment, +WordsInDiscussion, MajorContributor",+Size,0.03325526932084309,0.4947735191637631,1.335450649070334
+"+Size, LowChangeSet, +WordsInDiscussion, -WordsPerComment","LowChangeSet, +WordsInDiscussion, -WordsPerComment",+Size,0.010772833723653397,0.43809523809523815,1.1824694479561737
+"+Size, LowCodeChurn, +WordsInDiscussion, -WordsPerComment","LowCodeChurn, +WordsInDiscussion, -WordsPerComment",+Size,0.010070257611241218,0.37391304347826093,1.009234320892651
+"+Size, LowChangeSet, +WordsInDiscussion, HighHunksCount","LowChangeSet, +WordsInDiscussion, HighHunksCount",+Size,0.01569086651053864,0.6146788990825687,1.6590890638954288
+"+Size, LowCodeChurn, +WordsInDiscussion, HighHunksCount","LowCodeChurn, +WordsInDiscussion, HighHunksCount",+Size,0.013348946135831381,0.57,1.5384955752212388
+"+Size, +WordsInDiscussion, MajorContributor, HighHunksCount","+WordsInDiscussion, MajorContributor, HighHunksCount",+Size,0.03372365339578454,0.3388235294117647,0.9145236855804268
+"+Size, LowCodeChurn, +WordsInDiscussion, LowChangeSet","LowCodeChurn, +WordsInDiscussion, LowChangeSet",+Size,0.03747072599531616,0.45454545454545453,1.2268704746580852
+"+Size, +WordsInDiscussion, MajorContributor, LowChangeSet","+WordsInDiscussion, MajorContributor, LowChangeSet",+Size,0.030679156908665104,0.5822222222222222,1.5714847590953784
+"MinorContributor, +Size, +WordsInDiscussion, LowChangeSet","MinorContributor, +WordsInDiscussion, LowChangeSet",+Size,0.0117096018735363,0.308641975308642,0.8330601988419098
+"+Size, LowCodeChurn, +WordsInDiscussion, MajorContributor","LowCodeChurn, +WordsInDiscussion, MajorContributor",+Size,0.028337236533957845,0.5525114155251142,1.4912918737624763
+"+Size, LowChangeSet, +WordsPerComment, HighHunksCount","LowChangeSet, +WordsPerComment, HighHunksCount",+Size,0.010304449648711944,0.6666666666666666,1.799410029498525
+"+Size, +WordsPerComment, MajorContributor, HighHunksCount","+WordsPerComment, MajorContributor, HighHunksCount",+Size,0.01826697892271663,0.5571428571428572,1.5037926675094817
+"+Size, LowCodeChurn, +WordsPerComment, LowChangeSet","LowCodeChurn, +WordsPerComment, LowChangeSet",+Size,0.022482435597189696,0.4873096446700507,1.3153047931359776
+"+Size, +WordsPerComment, MajorContributor, LowChangeSet","+WordsPerComment, MajorContributor, LowChangeSet",+Size,0.018032786885245903,0.6637931034482759,1.7916539517851695
+"+Size, LowCodeChurn, +WordsPerComment, MajorContributor","LowCodeChurn, +WordsPerComment, MajorContributor",+Size,0.017096018735362997,0.6636363636363636,1.7912308930008043
+"+Size, -Cohesion, ExtractionRefactoring, HighHunksCount","ExtractionRefactoring, HighHunksCount","+Size, -Cohesion",0.01288056206088993,0.35714285714285715,2.558724832214765
+"+Size, MajorContributor, -Cohesion, ExtractionRefactoring","ExtractionRefactoring, MajorContributor","+Size, -Cohesion",0.014988290398126464,0.34782608695652173,2.491975488765684
+"+Size, LowChangeSet, ExtractionRefactoring, HighHunksCount","ExtractionRefactoring, LowChangeSet, HighHunksCount",+Size,0.010070257611241218,0.7049180327868853,1.9026548672566372
+"+Size, ExtractionRefactoring, MajorContributor, HighHunksCount","ExtractionRefactoring, MajorContributor, HighHunksCount",+Size,0.020140515222482436,0.5771812080536913,1.5578784819148306
+"+Size, LowCodeChurn, LowChangeSet, ExtractionRefactoring","ExtractionRefactoring, LowCodeChurn, LowChangeSet",+Size,0.011943793911007026,0.7846153846153847,2.117767188563649
+"+Size, LowChangeSet, ExtractionRefactoring, MajorContributor","ExtractionRefactoring, LowChangeSet, MajorContributor",+Size,0.012177985948477752,0.7428571428571428,2.005056890012642
+"+Size, LowCodeChurn, ExtractionRefactoring, MajorContributor","ExtractionRefactoring, LowCodeChurn, MajorContributor",+Size,0.010070257611241218,0.7818181818181819,2.1102172164119066
+"+Size, LowCodeChurn, LowChangeSet, HighHunksCount","LowCodeChurn, LowChangeSet, HighHunksCount",+Size,0.04285714285714286,0.5980392156862745,1.6141766441089709
+"+Size, LowChangeSet, MajorContributor, HighHunksCount","LowChangeSet, MajorContributor, HighHunksCount",+Size,0.05152224824355972,0.6528189910979229,1.762033560043066
+"+Size, LowCodeChurn, MajorContributor, HighHunksCount","LowCodeChurn, MajorContributor, HighHunksCount",+Size,0.04028103044496487,0.6323529411764706,1.706793336803748
+"+Size, RenameRefactoring, MajorContributor, HighHunksCount","RenameRefactoring, MajorContributor, HighHunksCount",+Size,0.010304449648711944,0.5116279069767442,1.3809425807779379
+"+Size, LowCodeChurn, LowChangeSet, MajorContributor","LowCodeChurn, LowChangeSet, MajorContributor",+Size,0.10843091334894614,0.5823899371069182,1.5719374408638058
+"+Size, LowCodeChurn, LowChangeSet, MinorContributor","LowCodeChurn, LowChangeSet, MinorContributor",+Size,0.03676814988290398,0.3560090702947845,0.9609094375213211
+"+WordsPerComment, +WordsInDiscussion, -Cohesion, HighHunksCount","+WordsPerComment, +WordsInDiscussion, HighHunksCount",-Cohesion,0.014519906323185013,0.3502824858757062,1.8534153837537368
+"+WordsPerComment, +WordsInDiscussion, -Cohesion, MajorContributor","+WordsPerComment, +WordsInDiscussion, MajorContributor",-Cohesion,0.020608899297423888,0.3066202090592335,1.6223894580953246
+"LowChangeSet, +WordsInDiscussion, -Cohesion, HighHunksCount","LowChangeSet, +WordsInDiscussion, HighHunksCount",-Cohesion,0.011007025761124122,0.4311926605504587,2.28152746040949
+"+WordsInDiscussion, -Cohesion, MajorContributor, LowChangeSet","+WordsInDiscussion, MajorContributor, LowChangeSet",-Cohesion,0.01826697892271663,0.3466666666666667,1.8342833539859564
+"LowCodeChurn, +WordsInDiscussion, -Cohesion, MajorContributor","LowCodeChurn, +WordsInDiscussion, MajorContributor",-Cohesion,0.015456674473067917,0.30136986301369867,1.5946088166895829
+"+WordsPerComment, -Cohesion, MajorContributor, HighHunksCount","+WordsPerComment, MajorContributor, HighHunksCount",-Cohesion,0.013583138173302109,0.4142857142857143,2.1920693928128876
+"+WordsPerComment, -Cohesion, MajorContributor, LowChangeSet","+WordsPerComment, MajorContributor, LowChangeSet",-Cohesion,0.01053864168618267,0.38793103448275856,2.0526214587873346
+"ExtractionRefactoring, -Cohesion, MajorContributor, HighHunksCount","ExtractionRefactoring, MajorContributor, HighHunksCount",-Cohesion,0.018032786885245903,0.5167785234899329,2.7343795480818014
+"LowCodeChurn, LowChangeSet, -Cohesion, HighHunksCount","LowCodeChurn, LowChangeSet, HighHunksCount",-Cohesion,0.021545667447306793,0.30065359477124187,1.590818896744985
+"LowChangeSet, -Cohesion, MajorContributor, HighHunksCount","LowChangeSet, MajorContributor, HighHunksCount",-Cohesion,0.027868852459016394,0.3531157270029674,1.8684066348236317
+"LowCodeChurn, -Cohesion, MajorContributor, HighHunksCount","LowCodeChurn, MajorContributor, HighHunksCount",-Cohesion,0.020374707259953162,0.31985294117647056,1.6924065165099496
+"ExtractionRefactoring, HighHunksCount, MajorContributor, -Complexity","ExtractionRefactoring, MajorContributor, HighHunksCount",-Complexity,0.014519906323185013,0.4161073825503356,2.4173857462448067
+"+Contributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling","+Contributor, LowChangeSet, HighHunksCount","+Complexity, +Coupling",0.01522248243559719,0.35326086956521735,2.1487520128824475
+"+Contributor, HighHunksCount, +Complexity, +Coupling, LowCodeChurn","+Contributor, LowCodeChurn, HighHunksCount","+Complexity, +Coupling",0.013114754098360656,0.37583892617449666,2.286085776018662
+"+Contributor, MajorContributor, LowChangeSet, +Complexity, +Coupling","+Contributor, LowChangeSet, MajorContributor","+Complexity, +Coupling",0.026697892271662763,0.4418604651162791,2.6876697806930365
+"+Contributor, MajorContributor, +Complexity, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn","+Complexity, +Coupling",0.02459016393442623,0.4411764705882353,2.68350930115636
+"+Size, +Contributor, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet","+Size, +Complexity",0.028337236533957845,0.32180851063829785,1.3796409040416986
+"+Size, +Contributor, MajorContributor, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor","+Size, +Complexity",0.035362997658079626,0.3275488069414317,1.4042504072689892
+"+Contributor, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+WordsPerComment, +Contributor, +NumPullRequests, +WordsInDiscussion",+Complexity,0.020608899297423888,0.33460076045627374,1.1778608797595127
+"+Contributor, HighHunksCount, +WordsInDiscussion, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Complexity,0.013817330210772834,0.3121693121693122,1.0988977435803489
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Complexity,0.017096018735362997,0.38219895287958117,1.3454159347038843
+"+Contributor, MajorContributor, +WordsInDiscussion, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, MajorContributor",+Complexity,0.019672131147540985,0.33201581027667987,1.1687613436780073
+"+Contributor, HighHunksCount, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, HighHunksCount",+Complexity,0.011943793911007026,0.4903846153846154,1.72625087196398
+"+Contributor, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, LowChangeSet",+Complexity,0.012412177985948477,0.4453781512605042,1.5678192134232092
+"+Contributor, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, LowCodeChurn",+Complexity,0.010772833723653397,0.32857142857142857,1.156636438582028
+"+Contributor, MajorContributor, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, MajorContributor",+Complexity,0.015456674473067917,0.528,1.8586644682605111
+"+Contributor, HighHunksCount, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, HighHunksCount",+Complexity,0.01288056206088993,0.5,1.7600989282769992
+"+Contributor, MajorContributor, HighHunksCount, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, HighHunksCount",+Complexity,0.01920374707259953,0.33469387755102037,1.1781886703568483
+"+Contributor, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, LowCodeChurn",+Complexity,0.029039812646370025,0.37462235649546827,1.3187448163525552
+"+Contributor, MajorContributor, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor",+Complexity,0.021311475409836064,0.6453900709219859,2.2719007443008077
+"+Contributor, MajorContributor, +Complexity, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn",+Complexity,0.017330210772833723,0.596774193548387,2.100763236975773
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +Complexity","+Contributor, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.017798594847775177,0.3392857142857143,1.4545682730923695
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +Complexity","+Contributor, +WordsInDiscussion, MajorContributor","+Size, +Complexity",0.02271662763466042,0.3149350649350649,1.3501734209565535
+"+Size, +Contributor, HighHunksCount, +Complexity, +WordsPerComment","+Contributor, +WordsPerComment, HighHunksCount","+Size, +Complexity",0.012646370023419205,0.4,1.714859437751004
+"+Size, +Contributor, LowChangeSet, +Complexity, +WordsPerComment","+Contributor, +WordsPerComment, LowChangeSet","+Size, +Complexity",0.012412177985948477,0.375886524822695,1.611481386539064
+"+Size, +Contributor, MajorContributor, +Complexity, +WordsPerComment","+Contributor, +WordsPerComment, MajorContributor","+Size, +Complexity",0.017330210772833723,0.46249999999999997,1.9828062248995983
+"+Size, +Contributor, HighHunksCount, LowChangeSet, +Complexity","+Contributor, LowChangeSet, HighHunksCount","+Size, +Complexity",0.018969555035128805,0.4402173913043478,1.8872773703509689
+"+Size, +Contributor, HighHunksCount, +Complexity, LowCodeChurn","+Contributor, LowCodeChurn, HighHunksCount","+Size, +Complexity",0.014754098360655738,0.4228187919463087,1.8126869895690143
+"+Size, +Contributor, MajorContributor, HighHunksCount, +Complexity","+Contributor, MajorContributor, HighHunksCount","+Size, +Complexity",0.02927400468384075,0.3298153034300792,1.413967214504456
+"+Size, +Contributor, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn","+Size, +Complexity",0.04543325526932084,0.33506044905008636,1.436453933176575
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Complexity","+Contributor, LowChangeSet, MajorContributor","+Size, +Complexity",0.03442622950819672,0.5697674418604651,2.4426776874941627
+"+Size, +Contributor, MajorContributor, +Complexity, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn","+Size, +Complexity",0.029508196721311476,0.5294117647058824,2.269666902905741
+"+Contributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, HighHunksCount",+Complexity,0.014754098360655738,0.4666666666666667,1.6427589997251992
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, LowChangeSet",+Complexity,0.01405152224824356,0.425531914893617,1.497956534703829
+"+Contributor, +WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn","+WordsPerComment, +Contributor, +WordsInDiscussion, LowCodeChurn",+Complexity,0.013817330210772834,0.3333333333333333,1.1733992855179993
+"+Contributor, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, MajorContributor",+Complexity,0.01920374707259953,0.5125,1.804101401483924
+"+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity","+Contributor, +WordsInDiscussion, MajorContributor, HighHunksCount",+Complexity,0.014754098360655738,0.33689839572192515,1.1859490104968016
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, +WordsInDiscussion, LowCodeChurn, LowChangeSet",+Complexity,0.016627634660421546,0.35323383084577115,1.2434529742056413
+"+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity","+Contributor, +WordsInDiscussion, MajorContributor, LowChangeSet",+Complexity,0.013348946135831381,0.6785714285714285,2.3887056883759272
+"+Contributor, MajorContributor, +WordsInDiscussion, +Complexity, LowCodeChurn","+Contributor, MajorContributor, +WordsInDiscussion, LowCodeChurn",+Complexity,0.011241217798594848,0.6153846153846153,2.1662756040332294
+"+Contributor, MajorContributor, +Complexity, +WordsPerComment, -Cohesion","+Contributor, +WordsPerComment, MajorContributor","-Cohesion, +Complexity",0.011241217798594848,0.3,2.5983772819472617
+"+Contributor, MajorContributor, HighHunksCount, +Complexity, +WordsPerComment","+Contributor, +WordsPerComment, MajorContributor, HighHunksCount",+Complexity,0.012646370023419205,0.5142857142857143,1.8103874690849135
+"+Contributor, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","+Contributor, +WordsPerComment, LowCodeChurn, LowChangeSet",+Complexity,0.011943793911007026,0.39230769230769236,1.3810006975711842
+"+Contributor, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, HighHunksCount",+Complexity,0.016627634660421546,0.5035460992907802,1.7725818993995313
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Complexity","+Contributor, LowChangeSet, MajorContributor, HighHunksCount",+Complexity,0.018501170960187354,0.5984848484848485,2.106785080816408
+"+Contributor, MajorContributor, HighHunksCount, +Complexity, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn, HighHunksCount",+Complexity,0.014285714285714285,0.5865384615384616,2.0647314350941723
+"+Contributor, MajorContributor, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn",+Complexity,0.03185011709601874,0.6476190476190476,2.2797471832921135
+"HighHunksCount, LowChangeSet, +Complexity, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, HighHunksCount","+Complexity, +Coupling",0.018969555035128805,0.35064935064935066,2.132867132867133
+"HighHunksCount, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, HighHunksCount","+Complexity, +Coupling",0.01569086651053864,0.34010152284263956,2.0687086930741754
+"MajorContributor, LowChangeSet, +Complexity, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor","+Complexity, +Coupling",0.03793911007025761,0.3151750972762646,1.9170906914097576
+"+Size, HighHunksCount, LowChangeSet, +Complexity, +Coupling","LowChangeSet, HighHunksCount","+Size, +Complexity, +Coupling",0.03185011709601874,0.33663366336633666,2.2080272543383375
+"+Size, HighHunksCount, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, HighHunksCount","+Size, +Complexity, +Coupling",0.02459016393442623,0.3181818181818182,2.0869990224828934
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Complexity, +Coupling","+WordsInDiscussion, MajorContributor, LowChangeSet","+Complexity, +Coupling",0.017330210772833723,0.32888888888888884,2.000506489395378
+"MajorContributor, +WordsInDiscussion, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor","+Complexity, +Coupling",0.01569086651053864,0.3059360730593607,1.8608932079251714
+"MajorContributor, LowChangeSet, +Complexity, +Coupling, +WordsPerComment","+WordsPerComment, MajorContributor, LowChangeSet","+Complexity, +Coupling",0.011475409836065573,0.42241379310344823,2.5693830435209746
+"MajorContributor, +Complexity, +Coupling, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor","+Complexity, +Coupling",0.010772833723653397,0.4181818181818182,2.543641543641544
+"HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, LowChangeSet, HighHunksCount","+Complexity, +Coupling",0.025995316159250586,0.3627450980392157,2.206440980950785
+"MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling","LowChangeSet, MajorContributor, HighHunksCount","+Complexity, +Coupling",0.03161592505854801,0.40059347181008903,2.4366582971924218
+"MajorContributor, HighHunksCount, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, MajorContributor, HighHunksCount","+Complexity, +Coupling",0.024355971896955503,0.38235294117647056,2.3257080610021785
+"+Size, +WordsInDiscussion, LowChangeSet, +Complexity, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.024824355971896955,0.3354430379746835,1.4380941487468861
+"+Size, HighHunksCount, +Complexity, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, HighHunksCount","+Size, +Complexity",0.012646370023419205,0.39416058394160586,1.6898249934042742
+"+Size, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, LowChangeSet","+Size, +Complexity",0.01569086651053864,0.391812865497076,1.6797599755748138
+"+Size, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment","+Size, +Complexity",0.01405152224824356,0.31413612565445026,1.3467482495426732
+"+Size, MajorContributor, +Complexity, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor","+Size, +Complexity",0.020843091334894613,0.40825688073394495,1.750257912383479
+"+Size, HighHunksCount, LowChangeSet, +Complexity, +NumPullRequests","+NumPullRequests, LowChangeSet, HighHunksCount","+Size, +Complexity",0.023887587822014052,0.4415584415584416,1.8930266520627967
+"+Size, HighHunksCount, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, HighHunksCount","+Size, +Complexity",0.018501170960187354,0.4010152284263959,1.7192118728721995
+"+Size, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet","+Size, +Complexity",0.0531615925058548,0.31659693165969316,1.3572980905490861
+"+Size, MajorContributor, LowChangeSet, +Complexity, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor","+Size, +Complexity",0.05152224824355972,0.4280155642023346,1.8349663244417358
+"+Size, MajorContributor, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor","+Size, +Complexity",0.04473067915690866,0.3441441441441441,1.4753970838308188
+"HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Complexity,0.014519906323185013,0.4525547445255475,1.5930822416521746
+"+WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Complexity,0.01756440281030445,0.43859649122807015,1.543946428313157
+"+WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsPerComment, LowCodeChurn, +NumPullRequests, +WordsInDiscussion",+Complexity,0.016159250585480095,0.36125654450261785,1.2716945136242195
+"MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, MajorContributor",+Complexity,0.02271662763466042,0.4449541284403669,1.566326569200632
+"HighHunksCount, LowChangeSet, +WordsInDiscussion, +Complexity, +NumPullRequests","LowChangeSet, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Complexity,0.010772833723653397,0.5054945054945056,1.7794406747415819
+"+WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Complexity,0.024121779859484778,0.35517241379310344,1.2502771697415924
+"MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet",+Complexity,0.021545667447306793,0.5168539325842697,1.8194281056346508
+"MajorContributor, +WordsInDiscussion, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, MajorContributor",+Complexity,0.01873536299765808,0.45454545454545453,1.600089934797272
+"MajorContributor, HighHunksCount, +Complexity, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, HighHunksCount",+Complexity,0.01288056206088993,0.5045871559633027,1.7762466248666964
+"LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, LowChangeSet",+Complexity,0.015456674473067917,0.4177215189873418,1.4704623957757208
+"MajorContributor, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, LowChangeSet",+Complexity,0.01288056206088993,0.6179775280898877,2.175403169780561
+"MajorContributor, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, MajorContributor",+Complexity,0.011241217798594848,0.5714285714285714,2.0115416323165705
+"HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, HighHunksCount",+Complexity,0.02177985948477752,0.5054347826086957,1.7792304383669666
+"MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount",+Complexity,0.025526932084309135,0.5828877005347594,2.0518800340341485
+"MajorContributor, HighHunksCount, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor, HighHunksCount",+Complexity,0.01990632318501171,0.5379746835443038,1.8937773278929737
+"MajorContributor, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, MajorContributor",+Complexity,0.04964871194379391,0.4796380090497738,1.6884206913788409
+"+Size, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, HighHunksCount","+Size, +Complexity",0.01569086651053864,0.37853107344632764,1.6228189594536335
+"+Size, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.01873536299765808,0.37037037037037035,1.587832812732411
+"+Size, +WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion","+Size, +Complexity",0.01756440281030445,0.3061224489795918,1.312392426850258
+"+Size, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor","+Size, +Complexity",0.025995316159250586,0.38675958188153314,1.6580957978254482
+"+Size, HighHunksCount, LowChangeSet, +WordsInDiscussion, +Complexity","LowChangeSet, +WordsInDiscussion, HighHunksCount","+Size, +Complexity",0.011241217798594848,0.4403669724770642,1.8879186470653253
+"+Size, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.025995316159250586,0.3153409090909091,1.3519133351588173
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity","+WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity",0.02459016393442623,0.4666666666666666,2.000669344042838
+"+Size, MajorContributor, +WordsInDiscussion, +Complexity, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor","+Size, +Complexity",0.02177985948477752,0.4246575342465754,1.820569951037025
+"+Size, MajorContributor, HighHunksCount, +Complexity, +WordsPerComment","+WordsPerComment, MajorContributor, HighHunksCount","+Size, +Complexity",0.013817330210772834,0.42142857142857143,1.8067269076305221
+"+Size, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, LowChangeSet","+Size, +Complexity",0.016159250585480095,0.350253807106599,1.5015901168124273
+"+Size, MajorContributor, LowChangeSet, +Complexity, +WordsPerComment","+WordsPerComment, MajorContributor, LowChangeSet","+Size, +Complexity",0.014988290398126464,0.5517241379310345,2.365323362415178
+"+Size, MajorContributor, +Complexity, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor","+Size, +Complexity",0.013348946135831381,0.5181818181818182,2.2215224534501643
+"+Size, MajorContributor, HighHunksCount, +Complexity, ExtractionRefactoring","ExtractionRefactoring, MajorContributor, HighHunksCount","+Size, +Complexity",0.0117096018735363,0.33557046979865773,1.4386404679119162
+"+Size, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn","LowCodeChurn, LowChangeSet, HighHunksCount","+Size, +Complexity",0.030913348946135833,0.43137254901960786,1.8493582171824554
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Complexity","LowChangeSet, MajorContributor, HighHunksCount","+Size, +Complexity",0.03911007025761124,0.49554896142433236,2.1244920334155615
+"+Size, MajorContributor, HighHunksCount, +Complexity, LowCodeChurn","LowCodeChurn, MajorContributor, HighHunksCount","+Size, +Complexity",0.029508196721311476,0.463235294117647,1.9859585400425228
+"+Size, MajorContributor, LowChangeSet, +Complexity, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor","+Size, +Complexity",0.07634660421545668,0.410062893081761,1.758000555681847
+"MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, HighHunksCount",+Complexity,0.016159250585480095,0.4928571428571429,1.7349546578730421
+"+WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, LowChangeSet",+Complexity,0.018032786885245903,0.39086294416243655,1.3759148982469942
+"MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, LowChangeSet",+Complexity,0.015456674473067917,0.5689655172413793,2.0028711942462407
+"MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, MajorContributor",+Complexity,0.01405152224824356,0.5454545454545454,1.9201079217567263
+"HighHunksCount, LowChangeSet, +WordsInDiscussion, +Complexity, LowCodeChurn","LowChangeSet, +WordsInDiscussion, LowCodeChurn, HighHunksCount",+Complexity,0.010070257611241218,0.47252747252747257,1.6633901959540873
+"MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion, +Complexity","LowChangeSet, +WordsInDiscussion, MajorContributor, HighHunksCount",+Complexity,0.011475409836065573,0.5903614457831325,2.0781890960379026
+"MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, LowChangeSet",+Complexity,0.02224824355971897,0.48469387755102045,1.7062183488399483
+"MajorContributor, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor, LowChangeSet",+Complexity,0.01288056206088993,0.5612244897959184,1.9756212460252034
+"MajorContributor, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount",+Complexity,0.03278688524590164,0.5622489959839357,1.9792277105122882
+"+Contributor, +WordsInDiscussion, +Coupling, +WordsPerComment, +NumPullRequests","+WordsPerComment, +Contributor, +NumPullRequests, +WordsInDiscussion",+Coupling,0.02177985948477752,0.35361216730038025,1.0792880302877939
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Coupling, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Coupling,0.017096018735362997,0.38219895287958117,1.1665400491749904
+"+Contributor, +WordsInDiscussion, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, LowCodeChurn",+Coupling,0.01592505854800937,0.3238095238095238,0.9883249940433644
+"+Contributor, LowChangeSet, +Coupling, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, LowChangeSet",+Coupling,0.012646370023419205,0.453781512605042,1.3850229155278981
+"+Contributor, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, LowCodeChurn",+Coupling,0.011943793911007026,0.36428571428571427,1.111865618298785
+"+Contributor, MajorContributor, +Coupling, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, MajorContributor",+Coupling,0.011007025761124122,0.376,1.1476197283774126
+"+Contributor, MinorContributor, +Coupling, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, MinorContributor",+Coupling,0.010772833723653397,0.3333333333333333,1.0173933762211103
+"+Contributor, HighHunksCount, LowChangeSet, +Coupling, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, HighHunksCount",+Coupling,0.01288056206088993,0.5,1.5260900643316655
+"+Contributor, HighHunksCount, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, LowCodeChurn, HighHunksCount",+Coupling,0.010772833723653397,0.5168539325842697,1.577531302455205
+"+Contributor, MajorContributor, HighHunksCount, +Coupling, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, HighHunksCount",+Coupling,0.01826697892271663,0.3183673469387755,0.9717144899417952
+"+Contributor, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, LowCodeChurn",+Coupling,0.029742388758782202,0.3836858006042296,1.1710781762545106
+"+Contributor, MajorContributor, LowChangeSet, +Coupling, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor",+Coupling,0.01826697892271663,0.5531914893617021,1.68844007117546
+"+Contributor, MajorContributor, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn",+Coupling,0.016159250585480095,0.5564516129032259,1.698390555465886
+"+Size, +Contributor, LowChangeSet, +Coupling, +WordsPerComment","+Contributor, +WordsPerComment, LowChangeSet","+Size, +Coupling",0.010772833723653397,0.3262411347517731,1.5530096381160212
+"+Size, +Contributor, MajorContributor, +Coupling, +WordsPerComment","+Contributor, +WordsPerComment, MajorContributor","+Size, +Coupling",0.011241217798594848,0.3,1.4280936454849498
+"+Size, +Contributor, HighHunksCount, LowChangeSet, +Coupling","+Contributor, LowChangeSet, HighHunksCount","+Size, +Coupling",0.017330210772833723,0.4021739130434782,1.914473365324027
+"+Size, +Contributor, HighHunksCount, +Coupling, LowCodeChurn","+Contributor, LowCodeChurn, HighHunksCount","+Size, +Coupling",0.01405152224824356,0.40268456375838924,1.9169042221274495
+"+Size, +Contributor, LowChangeSet, +Coupling, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn","+Size, +Coupling",0.041217798594847775,0.30397236614853196,1.4470033483324767
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Coupling","+Contributor, LowChangeSet, MajorContributor","+Size, +Coupling",0.03044496487119438,0.5038759689922481,2.398606898101337
+"+Size, +Contributor, MajorContributor, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn","+Size, +Coupling",0.027400468384074943,0.4915966386554622,2.3401534526854224
+"+Contributor, HighHunksCount, +WordsInDiscussion, +Coupling, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, HighHunksCount",+Coupling,0.0117096018735363,0.3703703703703704,1.1304370846901228
+"+Contributor, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, LowChangeSet",+Coupling,0.013817330210772834,0.4184397163120568,1.2771533871711813
+"+Contributor, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn","+WordsPerComment, +Contributor, +WordsInDiscussion, LowCodeChurn",+Coupling,0.013817330210772834,0.3333333333333333,1.0173933762211103
+"+Contributor, MajorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, MajorContributor",+Coupling,0.013817330210772834,0.36875,1.1254914224446033
+"+Contributor, LowChangeSet, +WordsInDiscussion, +Coupling, LowCodeChurn","+Contributor, +WordsInDiscussion, LowCodeChurn, LowChangeSet",+Coupling,0.01639344262295082,0.3482587064676617,1.062948303514593
+"+Contributor, MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling","+Contributor, +WordsInDiscussion, MajorContributor, LowChangeSet",+Coupling,0.011475409836065573,0.5833333333333333,1.780438408386943
+"+Contributor, MajorContributor, +WordsInDiscussion, +Coupling, LowCodeChurn","+Contributor, MajorContributor, +WordsInDiscussion, LowCodeChurn",+Coupling,0.010070257611241218,0.5512820512820513,1.6826121222118364
+"+Contributor, LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn","+Contributor, +WordsPerComment, LowCodeChurn, LowChangeSet",+Coupling,0.012177985948477752,0.4,1.2208720514653324
+"+Contributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, HighHunksCount",+Coupling,0.018501170960187354,0.5602836879432624,1.7100867387546324
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Coupling","+Contributor, LowChangeSet, MajorContributor, HighHunksCount",+Coupling,0.018969555035128805,0.6136363636363635,1.8729287153161347
+"+Contributor, MajorContributor, HighHunksCount, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn, HighHunksCount",+Coupling,0.014988290398126464,0.6153846153846154,1.87826469456205
+"+Contributor, MajorContributor, LowChangeSet, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn",+Coupling,0.029742388758782202,0.6047619047619048,1.8458422682868718
+"+Size, +Contributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+WordsPerComment, +Contributor, +NumPullRequests, +WordsInDiscussion",+Size,0.027400468384074943,0.4448669201520913,1.2007469968706888
+"+Size, +Contributor, HighHunksCount, +WordsInDiscussion, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Size,0.01639344262295082,0.3703703703703704,0.9996722386102918
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Size,0.02177985948477752,0.486910994764398,1.3142287911782424
+"+Size, +Contributor, +WordsInDiscussion, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, LowCodeChurn",+Size,0.020608899297423888,0.41904761904761906,1.1310577328276443
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, MajorContributor",+Size,0.023887587822014052,0.4031620553359684,1.0881807688271714
+"+Size, +Contributor, HighHunksCount, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, HighHunksCount",+Size,0.01405152224824356,0.5769230769230769,1.5571817562968004
+"+Size, +Contributor, LowChangeSet, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, LowChangeSet",+Size,0.014754098360655738,0.5294117647058824,1.428943258719417
+"+Size, +Contributor, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, LowCodeChurn",+Size,0.014988290398126464,0.45714285714285713,1.2338811630847029
+"+Size, +Contributor, MajorContributor, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, MajorContributor",+Size,0.018501170960187354,0.632,1.7058407079646019
+"+Size, +Contributor, HighHunksCount, LowChangeSet, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, HighHunksCount",+Size,0.014988290398126464,0.5818181818181818,1.5703942075623492
+"+Size, +Contributor, HighHunksCount, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, LowCodeChurn, HighHunksCount",+Size,0.0117096018735363,0.5617977528089888,1.5163567664313415
+"+Size, +Contributor, MajorContributor, HighHunksCount, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, HighHunksCount",+Size,0.025526932084309135,0.4448979591836735,1.2008307747877913
+"+Size, +Contributor, LowChangeSet, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, LowCodeChurn",+Size,0.03747072599531616,0.4833836858006042,1.3047081784883565
+"+Size, +Contributor, MajorContributor, LowChangeSet, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor",+Size,0.0234192037470726,0.7092198581560285,1.9142659888282185
+"+Size, +Contributor, MinorContributor, LowChangeSet, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MinorContributor",+Size,0.02107728337236534,0.3829787234042553,1.0337036339672379
+"+Size, +Contributor, MajorContributor, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn",+Size,0.01990632318501171,0.685483870967742,1.8501998287182417
+"+Size, +Contributor, MinorContributor, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, LowCodeChurn, MinorContributor",+Size,0.02271662763466042,0.36194029850746273,0.9769185048210277
+"+Contributor, HighHunksCount, +WordsPerComment, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, HighHunksCount",-Cohesion,0.010070257611241218,0.4134615384615385,2.1877085120579545
+"+Contributor, MajorContributor, +WordsPerComment, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, MajorContributor",-Cohesion,0.012646370023419205,0.432,2.2857992565055762
+"+Contributor, HighHunksCount, LowChangeSet, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, HighHunksCount",-Cohesion,0.010070257611241218,0.39090909090909093,2.0683789568547937
+"+Contributor, MajorContributor, HighHunksCount, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, HighHunksCount",-Cohesion,0.017798594847775177,0.31020408163265306,1.6413524517613738
+"+Contributor, MajorContributor, LowChangeSet, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor",-Cohesion,0.014988290398126464,0.4539007092198582,2.4016803325511704
+"+Contributor, MajorContributor, -Cohesion, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn",-Cohesion,0.012177985948477752,0.4193548387096774,2.2188911540152696
+"+Size, +Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, HighHunksCount",+Size,0.016627634660421546,0.5259259259259259,1.4195345788266143
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, LowChangeSet",+Size,0.017096018735362997,0.5177304964539007,1.3974141718445992
+"+Size, +Contributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn","+WordsPerComment, +Contributor, +WordsInDiscussion, LowCodeChurn",+Size,0.018501170960187354,0.4463276836158192,1.2046897655117244
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, MajorContributor",+Size,0.02177985948477752,0.58125,1.5688606194690267
+"+Size, +Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion","+Contributor, +WordsInDiscussion, MajorContributor, HighHunksCount",+Size,0.016159250585480095,0.36898395721925137,0.9959301500165634
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn","+Contributor, +WordsInDiscussion, LowCodeChurn, LowChangeSet",+Size,0.022014051522248244,0.4676616915422886,1.2622727072601594
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet","+Contributor, +WordsInDiscussion, MajorContributor, LowChangeSet",+Size,0.014754098360655738,0.75,2.024336283185841
+"+Size, +Contributor, MinorContributor, +WordsInDiscussion, LowChangeSet","MinorContributor, +Contributor, +WordsInDiscussion, LowChangeSet",+Size,0.011241217798594848,0.34285714285714286,0.9254108723135271
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, LowCodeChurn","+Contributor, MajorContributor, +WordsInDiscussion, LowCodeChurn",+Size,0.013348946135831381,0.7307692307692307,1.972430224642614
+"+Size, +Contributor, HighHunksCount, +WordsPerComment, -Cohesion","+Contributor, +WordsPerComment, HighHunksCount","+Size, -Cohesion",0.010070257611241218,0.31851851851851853,2.282003479990057
+"+Size, +Contributor, MajorContributor, +WordsPerComment, -Cohesion","+Contributor, +WordsPerComment, MajorContributor","+Size, -Cohesion",0.013114754098360656,0.35,2.5075503355704694
+"+Size, +Contributor, MajorContributor, HighHunksCount, +WordsPerComment","+Contributor, +WordsPerComment, MajorContributor, HighHunksCount",+Size,0.01405152224824356,0.5714285714285714,1.5423514538558785
+"+Size, +Contributor, LowChangeSet, +WordsPerComment, LowCodeChurn","+Contributor, +WordsPerComment, LowCodeChurn, LowChangeSet",+Size,0.014988290398126464,0.49230769230769234,1.3287950987066033
+"+Size, +Contributor, MajorContributor, LowChangeSet, +WordsPerComment","+Contributor, +WordsPerComment, MajorContributor, LowChangeSet",+Size,0.010070257611241218,0.8431372549019608,2.275724449071664
+"+Size, +Contributor, MajorContributor, LowChangeSet, -Cohesion","+Contributor, LowChangeSet, MajorContributor","+Size, -Cohesion",0.020843091334894613,0.3449612403100775,2.471450496852401
+"+Size, +Contributor, MajorContributor, -Cohesion, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn","+Size, -Cohesion",0.01826697892271663,0.3277310924369748,2.3480063166206078
+"+Size, +Contributor, HighHunksCount, LowChangeSet, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, HighHunksCount",+Size,0.01990632318501171,0.6028368794326242,1.6271260905039857
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet","+Contributor, LowChangeSet, MajorContributor, HighHunksCount",+Size,0.021311475409836064,0.6893939393939393,1.8607535532314292
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn, HighHunksCount",+Size,0.01592505854800937,0.653846153846154,1.7648059904697075
+"+Size, +Contributor, MajorContributor, LowChangeSet, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn",+Size,0.03676814988290398,0.7476190476190476,2.0179098187947746
+"+Size, +Contributor, MinorContributor, LowChangeSet, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, MinorContributor",+Size,0.03278688524590164,0.3794037940379404,1.024054488332494
+"+Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, -Cohesion","+WordsPerComment, +Contributor, +WordsInDiscussion, HighHunksCount",-Cohesion,0.012177985948477752,0.3851851851851852,2.0380926155399512
+"+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, -Cohesion","+WordsPerComment, +Contributor, +WordsInDiscussion, LowChangeSet",-Cohesion,0.010070257611241218,0.30496453900709225,1.6136289734328177
+"+Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, -Cohesion","+WordsPerComment, +Contributor, +WordsInDiscussion, MajorContributor",-Cohesion,0.01522248243559719,0.40625,2.1495508054522925
+"+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, -Cohesion","+Contributor, +WordsInDiscussion, MajorContributor, HighHunksCount",-Cohesion,0.013817330210772834,0.31550802139037437,1.6694166683232945
+"+Contributor, MajorContributor, HighHunksCount, +WordsPerComment, -Cohesion","+Contributor, +WordsPerComment, MajorContributor, HighHunksCount",-Cohesion,0.011475409836065573,0.4666666666666667,2.469227591904172
+"+Contributor, HighHunksCount, LowChangeSet, -Cohesion, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, HighHunksCount",-Cohesion,0.011943793911007026,0.3617021276595745,1.913839015001714
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, -Cohesion","+Contributor, LowChangeSet, MajorContributor, HighHunksCount",-Cohesion,0.013817330210772834,0.44696969696969696,2.3650069467913335
+"+Contributor, MajorContributor, HighHunksCount, -Cohesion, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn, HighHunksCount",-Cohesion,0.01053864168618267,0.43269230769230765,2.2894623963397196
+"+Contributor, MajorContributor, LowChangeSet, -Cohesion, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn",-Cohesion,0.01990632318501171,0.4047619047619048,2.1416769929781085
+"+Size, LowChangeSet, +Coupling, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, LowChangeSet","+Size, +Coupling",0.013817330210772834,0.3450292397660819,1.6424468827214824
+"+Size, HighHunksCount, LowChangeSet, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, HighHunksCount","+Size, +Coupling",0.022482435597189696,0.41558441558441556,1.978311543528935
+"+Size, HighHunksCount, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, HighHunksCount","+Size, +Coupling",0.01920374707259953,0.416243654822335,1.981449728084025
+"+Size, MajorContributor, LowChangeSet, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor","+Size, +Coupling",0.04566744730679157,0.37937743190661477,1.8059549991541195
+"+Size, MajorContributor, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor","+Size, +Coupling",0.041217798594847775,0.3171171171171171,1.5095764660982052
+"HighHunksCount, +WordsInDiscussion, +Coupling, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Coupling,0.012412177985948477,0.3868613138686131,1.1807704147383689
+"LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Coupling,0.01686182669789227,0.4210526315789474,1.2851284752266658
+"+WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsPerComment, LowCodeChurn, +NumPullRequests, +WordsInDiscussion",+Coupling,0.01592505854800937,0.356020942408377,1.0866400458068406
+"MajorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, MajorContributor",+Coupling,0.017330210772833723,0.33944954128440363,1.0360611445921397
+"MinorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, MinorContributor",+Coupling,0.011475409836065573,0.310126582278481,0.9465621918006533
+"HighHunksCount, LowChangeSet, +WordsInDiscussion, +Coupling, +NumPullRequests","LowChangeSet, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Coupling,0.011241217798594848,0.5274725274725275,1.6099411667674715
+"LowChangeSet, +WordsInDiscussion, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Coupling,0.023887587822014052,0.35172413793103446,1.073525424564344
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet",+Coupling,0.019437939110070256,0.46629213483146065,1.423207588084587
+"MajorContributor, +WordsInDiscussion, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, MajorContributor",+Coupling,0.017096018735362997,0.41477272727272724,1.2659610760933133
+"LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, LowChangeSet",+Coupling,0.014988290398126464,0.4050632911392405,1.2363261280661595
+"MajorContributor, LowChangeSet, +Coupling, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, LowChangeSet",+Coupling,0.0117096018735363,0.5617977528089888,1.7147079374513097
+"MajorContributor, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, MajorContributor",+Coupling,0.010304449648711944,0.5238095238095237,1.5987610197760302
+"HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, HighHunksCount",+Coupling,0.023185011709601872,0.5380434782608695,1.6422056127047269
+"MajorContributor, HighHunksCount, LowChangeSet, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount",+Coupling,0.02505854800936768,0.5721925133689839,1.7464346190747402
+"MajorContributor, HighHunksCount, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor, HighHunksCount",+Coupling,0.02107728337236534,0.5696202531645569,1.7385836175930365
+"MajorContributor, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, MajorContributor",+Coupling,0.04543325526932084,0.43891402714932126,1.339644671856756
+"+Size, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, LowChangeSet","+Size, +Coupling",0.016159250585480095,0.3194444444444445,1.520655270655271
+"+Size, HighHunksCount, LowChangeSet, +WordsInDiscussion, +Coupling","LowChangeSet, +WordsInDiscussion, HighHunksCount","+Size, +Coupling",0.01053864168618267,0.4128440366972477,1.9652664846123162
+"+Size, MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling","+WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Coupling",0.020140515222482436,0.38222222222222224,1.8194970890623066
+"+Size, MajorContributor, +WordsInDiscussion, +Coupling, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor","+Size, +Coupling",0.018032786885245903,0.35159817351598177,1.6737170578742946
+"+Size, LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, LowChangeSet","+Size, +Coupling",0.01405152224824356,0.3045685279187817,1.4498412644517256
+"+Size, MajorContributor, LowChangeSet, +Coupling, +WordsPerComment","+WordsPerComment, MajorContributor, LowChangeSet","+Size, +Coupling",0.013114754098360656,0.48275862068965514,2.298081728366586
+"+Size, MajorContributor, +Coupling, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor","+Size, +Coupling",0.011943793911007026,0.4636363636363636,2.207053815749468
+"+Size, MajorContributor, HighHunksCount, +Coupling, ExtractionRefactoring","ExtractionRefactoring, MajorContributor, HighHunksCount","+Size, +Coupling",0.012646370023419205,0.36241610738255037,1.7252137999147048
+"+Size, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn","LowCodeChurn, LowChangeSet, HighHunksCount","+Size, +Coupling",0.029976580796252927,0.41830065359477125,1.9912416843363137
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Coupling","LowChangeSet, MajorContributor, HighHunksCount","+Size, +Coupling",0.03723653395784543,0.4718100890207715,2.2459633000208408
+"+Size, MajorContributor, HighHunksCount, +Coupling, LowCodeChurn","LowCodeChurn, MajorContributor, HighHunksCount","+Size, +Coupling",0.029508196721311476,0.463235294117647,2.2051445996458785
+"+Size, MajorContributor, LowChangeSet, +Coupling, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor","+Size, +Coupling",0.06651053864168618,0.3572327044025157,1.7005391837221204
+"MajorContributor, HighHunksCount, +WordsInDiscussion, +Coupling, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, HighHunksCount",+Coupling,0.012412177985948477,0.37857142857142856,1.155468191565404
+"LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, LowChangeSet",+Coupling,0.01756440281030445,0.38071065989847713,1.1619975109124356
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, LowChangeSet",+Coupling,0.014519906323185013,0.5344827586206896,1.6313376549752285
+"MajorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, MajorContributor",+Coupling,0.013348946135831381,0.5181818181818182,1.5815842484891807
+"HighHunksCount, LowChangeSet, +WordsInDiscussion, +Coupling, LowCodeChurn","LowChangeSet, +WordsInDiscussion, LowCodeChurn, HighHunksCount",+Coupling,0.01053864168618267,0.4945054945054945,1.5093198438445043
+"MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion, +Coupling","LowChangeSet, +WordsInDiscussion, MajorContributor, HighHunksCount",+Coupling,0.011007025761124122,0.5662650602409639,1.7283429644238142
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, LowChangeSet",+Coupling,0.019672131147540985,0.4285714285714286,1.3080771979985706
+"MajorContributor, LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor, LowChangeSet",+Coupling,0.012177985948477752,0.5306122448979592,1.6195241499029922
+"MajorContributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount",+Coupling,0.03325526932084309,0.570281124497992,1.7406007159445502
+"+Size, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Size,0.017330210772833723,0.5401459854014599,1.4579161552871263
+"+Size, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Size,0.021311475409836064,0.5321637426900585,1.4363711638979455
+"+Size, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsPerComment, LowCodeChurn, +NumPullRequests, +WordsInDiscussion",+Size,0.021545667447306793,0.48167539267015713,1.3000972987999817
+"+Size, MajorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, MajorContributor",+Size,0.027400468384074943,0.536697247706422,1.4486076154907852
+"+Size, HighHunksCount, LowChangeSet, +WordsInDiscussion, +NumPullRequests","LowChangeSet, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Size,0.013583138173302109,0.6373626373626374,1.7203150831469418
+"+Size, HighHunksCount, +WordsInDiscussion, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, HighHunksCount",+Size,0.011475409836065573,0.5764705882352941,1.555960437272254
+"+Size, MajorContributor, HighHunksCount, +WordsInDiscussion, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, HighHunksCount",+Size,0.027868852459016394,0.35103244837758113,0.9474769624350641
+"+Size, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, LowChangeSet",+Size,0.030913348946135833,0.4551724137931034,1.2285627097955447
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet",+Size,0.025526932084309135,0.6123595505617978,1.6528288754101623
+"+Size, MajorContributor, +WordsInDiscussion, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, MajorContributor",+Size,0.022950819672131147,0.5568181818181818,1.5029163314561542
+"+Size, MajorContributor, HighHunksCount, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, HighHunksCount",+Size,0.015456674473067917,0.6055045871559633,1.6343265405537064
+"+Size, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, LowChangeSet",+Size,0.018969555035128805,0.5126582278481012,1.3837235353422201
+"+Size, MajorContributor, LowChangeSet, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, LowChangeSet",+Size,0.01522248243559719,0.7303370786516854,1.9712637963607438
+"+Size, MajorContributor, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, MajorContributor",+Size,0.01405152224824356,0.7142857142857142,1.927939317319848
+"+Size, MajorContributor, HighHunksCount, ExtractionRefactoring, +NumPullRequests","ExtractionRefactoring, +NumPullRequests, MajorContributor, HighHunksCount",+Size,0.01288056206088993,0.5670103092783505,1.5304260560167868
+"+Size, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, HighHunksCount",+Size,0.02622950819672131,0.608695652173913,1.642939592150827
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount",+Size,0.029742388758782202,0.679144385026738,1.8330888268420804
+"+Size, MajorContributor, HighHunksCount, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor, HighHunksCount",+Size,0.024121779859484778,0.6518987341772152,1.759549680743811
+"+Size, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, MajorContributor",+Size,0.061124121779859486,0.5904977375565611,1.5938213270331958
+"+Size, MinorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, MinorContributor",+Size,0.02224824355971897,0.34545454545454546,0.9324215607401448
+"HighHunksCount, +WordsInDiscussion, +WordsPerComment, -Cohesion, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, HighHunksCount",-Cohesion,0.0117096018735363,0.3649635036496351,1.9310956141064954
+"MajorContributor, +WordsInDiscussion, +WordsPerComment, -Cohesion, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, MajorContributor",-Cohesion,0.016627634660421546,0.3256880733944954,1.723281379670998
+"MajorContributor, +WordsInDiscussion, LowChangeSet, -Cohesion, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet",-Cohesion,0.01569086651053864,0.37640449438202245,1.9916322069532044
+"MajorContributor, +WordsInDiscussion, -Cohesion, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, MajorContributor",-Cohesion,0.013114754098360656,0.3181818181818182,1.6835642672073898
+"MajorContributor, HighHunksCount, +WordsPerComment, -Cohesion, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, HighHunksCount",-Cohesion,0.011241217798594848,0.4403669724770642,2.3300705978650114
+"MajorContributor, HighHunksCount, ExtractionRefactoring, -Cohesion, +NumPullRequests","ExtractionRefactoring, +NumPullRequests, MajorContributor, HighHunksCount",-Cohesion,0.0117096018735363,0.5154639175257733,2.7274237023978336
+"HighHunksCount, LowChangeSet, -Cohesion, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, HighHunksCount",-Cohesion,0.01405152224824356,0.3260869565217391,1.7253919508647162
+"MajorContributor, HighHunksCount, LowChangeSet, -Cohesion, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount",-Cohesion,0.01756440281030445,0.40106951871657753,2.1221398326143572
+"MajorContributor, HighHunksCount, -Cohesion, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor, HighHunksCount",-Cohesion,0.01288056206088993,0.34810126582278483,1.8418741078851193
+"+Size, HighHunksCount, LowChangeSet, +WordsInDiscussion, +WordsPerComment","+WordsPerComment, LowChangeSet, +WordsInDiscussion, HighHunksCount",+Size,0.010304449648711944,0.6666666666666666,1.799410029498525
+"+Size, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, HighHunksCount",+Size,0.01826697892271663,0.5571428571428572,1.5037926675094817
+"+Size, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, LowChangeSet",+Size,0.022482435597189696,0.4873096446700507,1.3153047931359776
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, LowChangeSet",+Size,0.018032786885245903,0.6637931034482759,1.7916539517851695
+"+Size, MajorContributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, MajorContributor",+Size,0.017096018735362997,0.6636363636363636,1.7912308930008043
+"+Size, HighHunksCount, LowChangeSet, +WordsInDiscussion, LowCodeChurn","LowChangeSet, +WordsInDiscussion, LowCodeChurn, HighHunksCount",+Size,0.012646370023419205,0.5934065934065935,1.6016726636195666
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion","LowChangeSet, +WordsInDiscussion, MajorContributor, HighHunksCount",+Size,0.013583138173302109,0.6987951807228917,1.8861285851370087
+"+Size, MajorContributor, HighHunksCount, +WordsInDiscussion, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, HighHunksCount",+Size,0.011241217798594848,0.64,1.727433628318584
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, LowChangeSet",+Size,0.026463700234192037,0.576530612244898,1.556122448979592
+"+Size, MinorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn","MinorContributor, LowCodeChurn, +WordsInDiscussion, LowChangeSet",+Size,0.011007025761124122,0.30128205128205127,0.813194917177218
+"+Size, MajorContributor, HighHunksCount, +WordsPerComment, -Cohesion","+WordsPerComment, MajorContributor, HighHunksCount","+Size, -Cohesion",0.011241217798594848,0.34285714285714286,2.4563758389261743
+"+Size, MajorContributor, LowChangeSet, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor, LowChangeSet",+Size,0.01522248243559719,0.6632653061224489,1.7902293660827162
+"+Size, MajorContributor, HighHunksCount, ExtractionRefactoring, -Cohesion","ExtractionRefactoring, MajorContributor, HighHunksCount","+Size, -Cohesion",0.012177985948477752,0.348993288590604,2.5003378226206023
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount",+Size,0.03793911007025761,0.6506024096385542,1.7560507516792834
+"MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, -Cohesion","+WordsPerComment, +WordsInDiscussion, MajorContributor, HighHunksCount",-Cohesion,0.013583138173302109,0.4142857142857143,2.1920693928128876
+"MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, -Cohesion","+WordsPerComment, +WordsInDiscussion, MajorContributor, LowChangeSet",-Cohesion,0.01053864168618267,0.38793103448275856,2.0526214587873346
+"MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion, -Cohesion","LowChangeSet, +WordsInDiscussion, MajorContributor, HighHunksCount",-Cohesion,0.01053864168618267,0.5421686746987951,2.8687239664979622
+"MajorContributor, +WordsInDiscussion, LowChangeSet, -Cohesion, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, LowChangeSet",-Cohesion,0.014754098360655738,0.32142857142857145,1.700743494423792
+"MajorContributor, HighHunksCount, LowChangeSet, -Cohesion, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount",-Cohesion,0.018969555035128805,0.3253012048192771,1.7212343798987773
+"+Contributor, MajorContributor, LowChangeSet, +Complexity, +Coupling, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor","+Complexity, +Coupling",0.01405152224824356,0.425531914893617,2.588349396860035
+"+Contributor, MajorContributor, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn","+Complexity, +Coupling",0.012177985948477752,0.4193548387096774,2.5507765830346476
+"+Size, +Contributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling","+Contributor, LowChangeSet, HighHunksCount","+Size, +Complexity, +Coupling",0.01405152224824356,0.3260869565217391,2.1388499298737726
+"+Size, +Contributor, HighHunksCount, +Complexity, +Coupling, LowCodeChurn","+Contributor, LowCodeChurn, HighHunksCount","+Size, +Complexity, +Coupling",0.0117096018735363,0.33557046979865773,2.2010536191094756
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Complexity, +Coupling","+Contributor, LowChangeSet, MajorContributor","+Size, +Complexity, +Coupling",0.02529274004683841,0.4186046511627907,2.7456864216054018
+"+Size, +Contributor, MajorContributor, +Complexity, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn","+Size, +Complexity, +Coupling",0.02271662763466042,0.40756302521008403,2.673262853528508
+"+Contributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, HighHunksCount","+Complexity, +Coupling",0.012412177985948477,0.375886524822695,2.2863753005596976
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling","+Contributor, LowChangeSet, MajorContributor, HighHunksCount","+Complexity, +Coupling",0.013114754098360656,0.4242424242424242,2.580505913839247
+"+Contributor, MajorContributor, HighHunksCount, +Complexity, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn, HighHunksCount","+Complexity, +Coupling",0.011007025761124122,0.4519230769230769,2.748876835415297
+"+Contributor, MajorContributor, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn","+Complexity, +Coupling",0.02271662763466042,0.46190476190476193,2.8095916429249765
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.014754098360655738,0.3298429319371728,1.414085662019807
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, +WordsInDiscussion, MajorContributor","+Size, +Complexity",0.018032786885245903,0.30434782608695654,1.3047843548105467
+"+Size, +Contributor, HighHunksCount, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, HighHunksCount","+Size, +Complexity",0.01053864168618267,0.43269230769230765,1.855016218721038
+"+Size, +Contributor, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, LowChangeSet","+Size, +Complexity",0.010772833723653397,0.3865546218487395,1.6572171037089536
+"+Size, +Contributor, MajorContributor, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, MajorContributor","+Size, +Complexity",0.014285714285714285,0.488,2.092128514056225
+"+Size, +Contributor, HighHunksCount, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, HighHunksCount","+Size, +Complexity",0.01053864168618267,0.40909090909090906,1.7538335158817084
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor","+Size, +Complexity",0.01826697892271663,0.5531914893617021,2.371614116038623
+"+Size, +Contributor, MajorContributor, +Complexity, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn","+Size, +Complexity",0.014285714285714285,0.4919354838709677,2.1090005182018396
+"+Contributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Complexity,0.011943793911007026,0.4903846153846154,1.72625087196398
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests",+Complexity,0.012412177985948477,0.4453781512605042,1.5678192134232092
+"+Contributor, +WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Complexity,0.010772833723653397,0.32857142857142857,1.156636438582028
+"+Contributor, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Complexity,0.015456674473067917,0.528,1.8586644682605111
+"+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +NumPullRequests",+Complexity,0.0117096018735363,0.32258064516129037,1.1355476956625803
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests",+Complexity,0.013583138173302109,0.34523809523809523,1.215306402857928
+"+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +NumPullRequests",+Complexity,0.011241217798594848,0.6486486486486487,2.283371582629621
+"+Contributor, MajorContributor, HighHunksCount, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, +WordsPerComment, +NumPullRequests",+Complexity,0.010304449648711944,0.5365853658536586,1.888886654736292
+"+Contributor, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Complexity,0.010304449648711944,0.4074074074074074,1.434154682299777
+"+Contributor, MajorContributor, LowChangeSet, +Complexity, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor","-Cohesion, +Complexity",0.010304449648711944,0.3120567375886525,2.7028037920964425
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +NumPullRequests",+Complexity,0.01053864168618267,0.5844155844155844,2.0572584875964925
+"+Contributor, MajorContributor, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests",+Complexity,0.01639344262295082,0.6306306306306306,2.219944594223242
+"+Size, +Contributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, HighHunksCount","+Size, +Complexity",0.012646370023419205,0.4,1.714859437751004
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.012412177985948477,0.375886524822695,1.611481386539064
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, MajorContributor","+Size, +Complexity",0.017330210772833723,0.46249999999999997,1.9828062248995983
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, +WordsInDiscussion, LowCodeChurn, LowChangeSet","+Size, +Complexity",0.014285714285714285,0.3034825870646766,1.3010749465523788
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity","+Contributor, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity",0.012412177985948477,0.6309523809523808,2.704986613119143
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +Complexity, LowCodeChurn","+Contributor, MajorContributor, +WordsInDiscussion, LowCodeChurn","+Size, +Complexity",0.010070257611241218,0.5512820512820513,2.363428071259397
+"+Size, +Contributor, MajorContributor, HighHunksCount, +Complexity, +WordsPerComment","+Contributor, +WordsPerComment, MajorContributor, HighHunksCount","+Size, +Complexity",0.010772833723653397,0.43809523809523815,1.8781793842034809
+"+Size, +Contributor, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","+Contributor, +WordsPerComment, LowCodeChurn, LowChangeSet","+Size, +Complexity",0.010304449648711944,0.3384615384615385,1.4510349088662342
+"+Size, +Contributor, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, HighHunksCount","+Size, +Complexity",0.014285714285714285,0.4326241134751773,1.8547238599789229
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Complexity","+Contributor, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Complexity",0.01639344262295082,0.5303030303030303,2.2734878909577705
+"+Size, +Contributor, MajorContributor, HighHunksCount, +Complexity, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn, HighHunksCount","+Size, +Complexity",0.012177985948477752,0.5,2.143574297188755
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn","+Size, +Complexity",0.027868852459016394,0.5666666666666667,2.429384203480589
+"+Contributor, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, -Cohesion","+WordsPerComment, +Contributor, +WordsInDiscussion, MajorContributor","-Cohesion, +Complexity",0.011241217798594848,0.3,2.5983772819472617
+"+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment",+Complexity,0.012646370023419205,0.5142857142857143,1.8103874690849135
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn",+Complexity,0.011943793911007026,0.39230769230769236,1.3810006975711842
+"+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn",+Complexity,0.010070257611241218,0.6515151515151515,2.2934622398760895
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn",+Complexity,0.013583138173302109,0.6041666666666667,2.126786205001374
+"+Size, HighHunksCount, LowChangeSet, +Complexity, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, HighHunksCount","+Size, +Complexity, +Coupling",0.017096018735362997,0.31601731601731603,2.0728017502211054
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Complexity, +Coupling, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet","+Complexity, +Coupling",0.014988290398126464,0.3595505617977528,2.1870098274592658
+"MajorContributor, +WordsInDiscussion, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, MajorContributor","+Complexity, +Coupling",0.013114754098360656,0.3181818181818182,1.9353794353794354
+"HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, HighHunksCount","+Complexity, +Coupling",0.01522248243559719,0.35326086956521735,2.1487520128824475
+"MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount","+Complexity, +Coupling",0.017330210772833723,0.3957219251336898,2.4070265246735834
+"MajorContributor, HighHunksCount, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor, HighHunksCount","+Complexity, +Coupling",0.01405152224824356,0.37974683544303794,2.3098561073244617
+"MajorContributor, LowChangeSet, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, MajorContributor","+Complexity, +Coupling",0.03185011709601874,0.30769230769230776,1.8715757177295644
+"+Size, MajorContributor, LowChangeSet, +WordsInDiscussion, +Complexity, +Coupling","+WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity, +Coupling",0.01686182669789227,0.32,2.098924731182796
+"+Size, MajorContributor, LowChangeSet, +Complexity, +Coupling, +WordsPerComment","+WordsPerComment, MajorContributor, LowChangeSet","+Size, +Complexity, +Coupling",0.011241217798594848,0.41379310344827586,2.71412680756396
+"+Size, MajorContributor, +Complexity, +Coupling, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor","+Size, +Complexity, +Coupling",0.010304449648711944,0.39999999999999997,2.6236559139784945
+"+Size, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, LowChangeSet, HighHunksCount","+Size, +Complexity, +Coupling",0.024121779859484778,0.3366013071895425,2.207815025651838
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling","LowChangeSet, MajorContributor, HighHunksCount","+Size, +Complexity, +Coupling",0.030210772833723653,0.3827893175074184,2.510768641715325
+"+Size, MajorContributor, HighHunksCount, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, MajorContributor, HighHunksCount","+Size, +Complexity, +Coupling",0.022950819672131147,0.36029411764705876,2.363219481340923
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Complexity, +Coupling, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, LowChangeSet","+Complexity, +Coupling",0.011475409836065573,0.42241379310344823,2.5693830435209746
+"MajorContributor, +WordsInDiscussion, +Complexity, +Coupling, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, MajorContributor","+Complexity, +Coupling",0.010772833723653397,0.4181818181818182,2.543641543641544
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, LowChangeSet","+Complexity, +Coupling",0.014519906323185013,0.3163265306122449,1.9240944240944242
+"MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount","+Complexity, +Coupling",0.023653395784543327,0.4056224899598394,2.4672479090149775
+"+Size, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, HighHunksCount","+Size, +Complexity",0.012646370023419205,0.39416058394160586,1.6898249934042742
+"+Size, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.01569086651053864,0.391812865497076,1.6797599755748138
+"+Size, +WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsPerComment, LowCodeChurn, +NumPullRequests, +WordsInDiscussion","+Size, +Complexity",0.01405152224824356,0.31413612565445026,1.3467482495426732
+"+Size, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, MajorContributor","+Size, +Complexity",0.020843091334894613,0.40825688073394495,1.750257912383479
+"+Size, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.021311475409836064,0.3137931034482758,1.3452776623736322
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity",0.020374707259953162,0.48876404494382025,2.095404088263165
+"+Size, MajorContributor, +WordsInDiscussion, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, MajorContributor","+Size, +Complexity",0.017330210772833723,0.4204545454545454,1.8025511135450893
+"+Size, MajorContributor, HighHunksCount, +Complexity, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, HighHunksCount","+Size, +Complexity",0.011241217798594848,0.4403669724770642,1.8879186470653253
+"+Size, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, LowChangeSet","+Size, +Complexity",0.013583138173302109,0.3670886075949367,1.5737634080626304
+"+Size, MajorContributor, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, LowChangeSet","+Size, +Complexity",0.012412177985948477,0.5955056179775281,2.55302107305627
+"+Size, MajorContributor, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, MajorContributor","+Size, +Complexity",0.01053864168618267,0.5357142857142857,2.2966867469879517
+"+Size, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, HighHunksCount","+Size, +Complexity",0.018032786885245903,0.4184782608695652,1.7940784878645013
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Complexity",0.022014051522248244,0.5026737967914439,2.1550372613448445
+"+Size, MajorContributor, HighHunksCount, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor, HighHunksCount","+Size, +Complexity",0.016627634660421546,0.44936708860759494,1.9265034822835647
+"+Size, MajorContributor, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, MajorContributor","+Size, +Complexity",0.04285714285714286,0.414027149321267,1.7749959112467972
+"MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Complexity,0.01288056206088993,0.5045871559633027,1.7762466248666964
+"+WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Complexity,0.015456674473067917,0.4177215189873418,1.4704623957757208
+"MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests",+Complexity,0.01288056206088993,0.6179775280898877,2.175403169780561
+"MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Complexity,0.011241217798594848,0.5714285714285714,2.0115416323165705
+"MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests",+Complexity,0.01826697892271663,0.4968152866242039,1.7488881070777829
+"MajorContributor, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Complexity,0.010772833723653397,0.6052631578947368,2.1306460710721566
+"MajorContributor, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests",+Complexity,0.01920374707259953,0.5655172413793103,1.990732580947778
+"+Size, MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, HighHunksCount","+Size, +Complexity",0.013817330210772834,0.42142857142857143,1.8067269076305221
+"+Size, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, LowChangeSet","+Size, +Complexity",0.016159250585480095,0.350253807106599,1.5015901168124273
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity",0.014988290398126464,0.5517241379310345,2.365323362415178
+"+Size, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, MajorContributor","+Size, +Complexity",0.013348946135831381,0.5181818181818182,2.2215224534501643
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion, +Complexity","LowChangeSet, +WordsInDiscussion, MajorContributor, HighHunksCount","+Size, +Complexity",0.010304449648711944,0.5301204819277109,2.272705278947114
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity",0.020843091334894613,0.45408163265306123,1.9467154331612164
+"+Size, MajorContributor, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor, LowChangeSet","+Size, +Complexity",0.012412177985948477,0.5408163265306123,2.318559954102123
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Complexity",0.028337236533957845,0.4859437751004016,2.0833131723681877
+"MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn",+Complexity,0.01288056206088993,0.5612244897959184,1.9756212460252034
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Coupling, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor","+Size, +Coupling",0.015456674473067917,0.4680851063829788,2.228231219905596
+"+Size, +Contributor, MajorContributor, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn","+Size, +Coupling",0.013348946135831381,0.4596774193548387,2.188208005178552
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Coupling, +WordsPerComment, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests",+Coupling,0.012646370023419205,0.453781512605042,1.3850229155278981
+"+Contributor, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Coupling,0.011943793911007026,0.36428571428571427,1.111865618298785
+"+Contributor, MajorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Coupling,0.011007025761124122,0.376,1.1476197283774126
+"+Contributor, MinorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment, +NumPullRequests","+Contributor, MinorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Coupling,0.010772833723653397,0.3333333333333333,1.0173933762211103
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests",+Coupling,0.014519906323185013,0.369047619047619,1.1263998093876577
+"+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +Coupling, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +NumPullRequests",+Coupling,0.010304449648711944,0.5945945945945946,1.814809806232251
+"+Contributor, LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Coupling,0.011007025761124122,0.4351851851851852,1.328263574510894
+"+Contributor, MajorContributor, LowChangeSet, +Coupling, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor","-Cohesion, +Coupling",0.01053864168618267,0.3191489361702128,3.2065081351689613
+"+Contributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests",+Coupling,0.010304449648711944,0.5176470588235293,1.5799520666021947
+"+Contributor, MajorContributor, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests",+Coupling,0.01522248243559719,0.5855855855855856,1.7873126879560046
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +Coupling, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, LowChangeSet","+Size, +Coupling",0.010772833723653397,0.3262411347517731,1.5530096381160212
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment","+WordsPerComment, +Contributor, +WordsInDiscussion, MajorContributor","+Size, +Coupling",0.011241217798594848,0.3,1.4280936454849498
+"+Size, +Contributor, MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling","+Contributor, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Coupling",0.010304449648711944,0.5238095238095237,2.493496841322928
+"+Size, +Contributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, HighHunksCount","+Size, +Coupling",0.013583138173302109,0.4113475177304965,1.958142587189766
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Coupling","+Contributor, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Coupling",0.015456674473067917,0.5,2.38015607580825
+"+Size, +Contributor, MajorContributor, HighHunksCount, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn, HighHunksCount","+Size, +Coupling",0.012177985948477752,0.5,2.38015607580825
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn","+Size, +Coupling",0.025526932084309135,0.5190476190476191,2.470828688219993
+"+Contributor, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn",+Coupling,0.012177985948477752,0.4,1.2208720514653324
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Coupling, -Cohesion","+Contributor, LowChangeSet, MajorContributor, HighHunksCount","-Cohesion, +Coupling",0.01053864168618267,0.3409090909090909,3.425133689839572
+"+Contributor, MajorContributor, LowChangeSet, +Coupling, -Cohesion, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn","-Cohesion, +Coupling",0.014988290398126464,0.3047619047619048,3.061960784313726
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn",+Coupling,0.014285714285714285,0.6354166666666666,1.9394061234214914
+"+Size, +Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Size,0.01405152224824356,0.5769230769230769,1.5571817562968004
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests",+Size,0.014754098360655738,0.5294117647058824,1.428943258719417
+"+Size, +Contributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Size,0.014988290398126464,0.45714285714285713,1.2338811630847029
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Size,0.018501170960187354,0.632,1.7058407079646019
+"+Size, +Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +NumPullRequests",+Size,0.013817330210772834,0.3806451612903226,1.0274050813588353
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests",+Size,0.017798594847775177,0.4523809523809524,1.2210282343025707
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +NumPullRequests",+Size,0.012412177985948477,0.7162162162162162,1.9331499641234156
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, LowCodeChurn, +NumPullRequests",+Size,0.010304449648711944,0.6875,1.855641592920354
+"+Size, +Contributor, MinorContributor, +WordsInDiscussion, LowCodeChurn, +NumPullRequests","+Contributor, MinorContributor, +WordsInDiscussion, LowCodeChurn, +NumPullRequests",+Size,0.010304449648711944,0.3013698630136986,0.8134319311431688
+"+Size, +Contributor, MajorContributor, +WordsPerComment, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, +WordsPerComment, MajorContributor","+Size, -Cohesion",0.011007025761124122,0.376,2.6938255033557046
+"+Size, +Contributor, MajorContributor, HighHunksCount, +WordsPerComment, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, +WordsPerComment, +NumPullRequests",+Size,0.012177985948477752,0.6341463414634146,1.711633930498597
+"+Size, +Contributor, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Size,0.012646370023419205,0.5,1.3495575221238938
+"+Size, +Contributor, MajorContributor, LowChangeSet, -Cohesion, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor","+Size, -Cohesion",0.012177985948477752,0.3687943262411348,2.642200961492694
+"+Size, +Contributor, MajorContributor, -Cohesion, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn","+Size, -Cohesion",0.010304449648711944,0.3548387096774193,2.5422169300714437
+"+Size, +Contributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests","+Contributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests",+Size,0.011241217798594848,0.5647058823529412,1.5242061426340447
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +NumPullRequests",+Size,0.011475409836065573,0.6363636363636362,1.717618664521319
+"+Size, +Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests",+Size,0.018032786885245903,0.6936936936936937,1.8723590847484652
+"+Size, +Contributor, MinorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","+Contributor, MinorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests",+Size,0.019437939110070256,0.37727272727272726,1.0183024939662106
+"+Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, -Cohesion, +NumPullRequests","+Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",-Cohesion,0.010070257611241218,0.4134615384615385,2.1877085120579545
+"+Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, -Cohesion, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",-Cohesion,0.012646370023419205,0.432,2.2857992565055762
+"+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, -Cohesion, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +NumPullRequests",-Cohesion,0.011943793911007026,0.32903225806451614,1.7409761362273655
+"+Contributor, MajorContributor, LowChangeSet, -Cohesion, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests",-Cohesion,0.0117096018735363,0.45045045045045046,2.3834243165098186
+"+Size, +Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, -Cohesion","+WordsPerComment, +Contributor, +WordsInDiscussion, HighHunksCount","+Size, -Cohesion",0.010070257611241218,0.31851851851851853,2.282003479990057
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, -Cohesion","+WordsPerComment, +Contributor, +WordsInDiscussion, MajorContributor","+Size, -Cohesion",0.013114754098360656,0.35,2.5075503355704694
+"+Size, +Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment",+Size,0.01405152224824356,0.5714285714285714,1.5423514538558785
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn",+Size,0.014988290398126464,0.49230769230769234,1.3287950987066033
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment","+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment",+Size,0.010070257611241218,0.8431372549019608,2.275724449071664
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn","+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn",+Size,0.011475409836065573,0.7424242424242423,2.003888441941539
+"+Size, +Contributor, MinorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn","+Contributor, MinorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn",+Size,0.01053864168618267,0.3333333333333333,0.8997050147492625
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet, -Cohesion","+Contributor, LowChangeSet, MajorContributor, HighHunksCount","+Size, -Cohesion",0.010772833723653397,0.3484848484848485,2.496695139312589
+"+Size, +Contributor, MajorContributor, LowChangeSet, -Cohesion, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn","+Size, -Cohesion",0.01756440281030445,0.3571428571428571,2.558724832214765
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn",+Size,0.01522248243559719,0.6770833333333333,1.8275258112094392
+"+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, -Cohesion","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment",-Cohesion,0.011475409836065573,0.4666666666666667,2.469227591904172
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, -Cohesion, LowCodeChurn","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn",-Cohesion,0.010070257611241218,0.4479166666666667,2.3700175547294506
+"+Size, +WordsInDiscussion, LowChangeSet, +Coupling, +WordsPerComment, +NumPullRequests","+WordsPerComment, +NumPullRequests, +WordsInDiscussion, LowChangeSet","+Size, +Coupling",0.013817330210772834,0.3450292397660819,1.6424468827214824
+"+Size, MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Coupling",0.017330210772833723,0.41573033707865165,1.979006175391129
+"+Size, MajorContributor, +WordsInDiscussion, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, MajorContributor","+Size, +Coupling",0.014988290398126464,0.36363636363636365,1.7310226005878182
+"+Size, LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsPerComment, LowChangeSet","+Size, +Coupling",0.012177985948477752,0.3291139240506329,1.5666850119244176
+"+Size, MajorContributor, LowChangeSet, +Coupling, +WordsPerComment, +NumPullRequests","+NumPullRequests, +WordsPerComment, MajorContributor, LowChangeSet","+Size, +Coupling",0.011007025761124122,0.5280898876404495,2.5138727092806237
+"+Size, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, HighHunksCount","+Size, +Coupling",0.01826697892271663,0.42391304347826086,2.0179584120982987
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Coupling",0.021311475409836064,0.48663101604278075,2.316515539021933
+"+Size, MajorContributor, HighHunksCount, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor, HighHunksCount","+Size, +Coupling",0.018032786885245903,0.4873417721518988,2.3198989599650033
+"+Size, MajorContributor, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, MajorContributor","+Size, +Coupling",0.03934426229508197,0.3800904977375566,1.8093494150940543
+"LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Coupling,0.014988290398126464,0.4050632911392405,1.2363261280661595
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests",+Coupling,0.0117096018735363,0.5617977528089888,1.7147079374513097
+"MajorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Coupling,0.010304449648711944,0.5238095238095237,1.5987610197760302
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests",+Coupling,0.016627634660421546,0.4522292993630574,1.3802852811152646
+"MajorContributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests",+Coupling,0.01990632318501171,0.5862068965517241,1.7892090409405732
+"+Size, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, LowChangeSet","+Size, +Coupling",0.01405152224824356,0.3045685279187817,1.4498412644517256
+"+Size, MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Coupling",0.013114754098360656,0.48275862068965514,2.298081728366586
+"+Size, MajorContributor, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, MajorContributor","+Size, +Coupling",0.011943793911007026,0.4636363636363636,2.207053815749468
+"+Size, MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Coupling",0.017096018735362997,0.37244897959183676,1.7729734034081863
+"+Size, MajorContributor, LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn","LowCodeChurn, +WordsPerComment, MajorContributor, LowChangeSet","+Size, +Coupling",0.011007025761124122,0.4795918367346939,2.2830068482242396
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Coupling",0.02810304449648712,0.4819277108433735,2.2941263381284336
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn",+Coupling,0.012177985948477752,0.5306122448979592,1.6195241499029922
+"+Size, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Size,0.015456674473067917,0.6055045871559633,1.6343265405537064
+"+Size, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Size,0.018969555035128805,0.5126582278481012,1.3837235353422201
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests",+Size,0.01522248243559719,0.7303370786516854,1.9712637963607438
+"+Size, MajorContributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Size,0.01405152224824356,0.7142857142857142,1.927939317319848
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, -Cohesion, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, -Cohesion",0.012646370023419205,0.30337078651685395,2.1734786215217556
+"+Size, HighHunksCount, LowChangeSet, +WordsInDiscussion, LowCodeChurn, +NumPullRequests","HighHunksCount, LowChangeSet, +WordsInDiscussion, LowCodeChurn, +NumPullRequests",+Size,0.011007025761124122,0.6025641025641025,1.626389834354436
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion, +NumPullRequests",+Size,0.0117096018735363,0.7142857142857143,1.9279393173198482
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests",+Size,0.02177985948477752,0.5923566878980893,1.598838847866524
+"+Size, MajorContributor, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Size,0.01288056206088993,0.7236842105263157,1.9533069399161618
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, -Cohesion, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount","+Size, -Cohesion",0.013817330210772834,0.31550802139037437,2.260434985464595
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests",+Size,0.02271662763466042,0.6689655172413792,1.8056148916692094
+"MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, -Cohesion, +NumPullRequests","MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",-Cohesion,0.011241217798594848,0.4403669724770642,2.3300705978650114
+"MajorContributor, +WordsInDiscussion, LowChangeSet, -Cohesion, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests",-Cohesion,0.01288056206088993,0.35031847133757965,1.8536057901009482
+"MajorContributor, HighHunksCount, LowChangeSet, -Cohesion, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests",-Cohesion,0.012646370023419205,0.37241379310344824,1.9705166004358414
+"+Size, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, -Cohesion","+WordsPerComment, +WordsInDiscussion, MajorContributor, HighHunksCount","+Size, -Cohesion",0.011241217798594848,0.34285714285714286,2.4563758389261743
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn",+Size,0.01522248243559719,0.6632653061224489,1.7902293660827162
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion, LowCodeChurn","MajorContributor, HighHunksCount, LowChangeSet, +WordsInDiscussion, LowCodeChurn",+Size,0.01053864168618267,0.6818181818181818,1.8403057119871278
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Complexity, +Coupling, +NumPullRequests","+Contributor, +NumPullRequests, LowChangeSet, MajorContributor","+Size, +Complexity, +Coupling",0.01288056206088993,0.39007092198581567,2.558529703347823
+"+Size, +Contributor, MajorContributor, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, LowCodeChurn","+Size, +Complexity, +Coupling",0.010772833723653397,0.3709677419354839,2.4332292750607007
+"+Contributor, MajorContributor, LowChangeSet, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","+Complexity, +Coupling",0.011475409836065573,0.44144144144144143,2.685121018454352
+"+Size, +Contributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","+Contributor, LowChangeSet, LowCodeChurn, HighHunksCount","+Size, +Complexity, +Coupling",0.011241217798594848,0.34042553191489366,2.232898650194464
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling","+Contributor, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Complexity, +Coupling",0.012412177985948477,0.4015151515151515,2.6335940045617465
+"+Size, +Contributor, MajorContributor, HighHunksCount, +Complexity, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowCodeChurn, HighHunksCount","+Size, +Complexity, +Coupling",0.010070257611241218,0.4134615384615385,2.711952026468156
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn","+Size, +Complexity, +Coupling",0.021311475409836064,0.4333333333333333,2.8422939068100357
+"+Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn","+Complexity, +Coupling",0.010304449648711944,0.4583333333333333,2.7878679962013297
+"+Size, +Contributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+Size, +Complexity",0.01053864168618267,0.43269230769230765,1.855016218721038
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests","+Size, +Complexity",0.010772833723653397,0.3865546218487395,1.6572171037089536
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+Size, +Complexity",0.014285714285714285,0.488,2.092128514056225
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, LowChangeSet, +NumPullRequests","+Size, +Complexity",0.010304449648711944,0.5945945945945946,2.5491153804406816
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Complexity",0.013583138173302109,0.5225225225225225,2.2401316979630232
+"+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Complexity,0.010304449648711944,0.5365853658536586,1.888886654736292
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Complexity,0.010304449648711944,0.4074074074074074,1.434154682299777
+"+Size, +Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment","+Size, +Complexity",0.010772833723653397,0.43809523809523815,1.8781793842034809
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn","+Size, +Complexity",0.010304449648711944,0.3384615384615385,1.4510349088662342
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn","+Size, +Complexity",0.0117096018735363,0.5208333333333334,2.232889892904953
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +Coupling, +NumPullRequests","+NumPullRequests, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity, +Coupling",0.014519906323185013,0.34831460674157305,2.2846441947565546
+"+Size, MajorContributor, +WordsInDiscussion, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, +WordsInDiscussion, MajorContributor","+Size, +Complexity, +Coupling",0.012412177985948477,0.30113636363636365,1.97519550342131
+"+Size, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, LowChangeSet, HighHunksCount","+Size, +Complexity, +Coupling",0.013348946135831381,0.30978260869565216,2.031907433380084
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, +NumPullRequests","+NumPullRequests, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Complexity, +Coupling",0.016159250585480095,0.36898395721925137,2.4202173538036917
+"+Size, MajorContributor, HighHunksCount, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","LowCodeChurn, +NumPullRequests, MajorContributor, HighHunksCount","+Size, +Complexity, +Coupling",0.012646370023419205,0.34177215189873417,2.241731318905676
+"MajorContributor, LowChangeSet, +WordsInDiscussion, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests","+Complexity, +Coupling",0.012646370023419205,0.3439490445859873,2.092111709946105
+"MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests","+Complexity, +Coupling",0.013583138173302109,0.39999999999999997,2.433048433048433
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +Coupling, +WordsPerComment","+WordsPerComment, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity, +Coupling",0.011241217798594848,0.41379310344827586,2.71412680756396
+"+Size, MajorContributor, +WordsInDiscussion, +Complexity, +Coupling, +WordsPerComment, LowCodeChurn","+WordsPerComment, LowCodeChurn, +WordsInDiscussion, MajorContributor","+Size, +Complexity, +Coupling",0.010304449648711944,0.39999999999999997,2.6236559139784945
+"+Size, MajorContributor, LowChangeSet, +WordsInDiscussion, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, +WordsInDiscussion, MajorContributor, LowChangeSet","+Size, +Complexity, +Coupling",0.01405152224824356,0.30612244897959184,2.0078999341672152
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount","+Size, +Complexity, +Coupling",0.022482435597189696,0.3855421686746988,2.5288249773286697
+"+Size, MajorContributor, HighHunksCount, +WordsInDiscussion, +Complexity, +WordsPerComment, +NumPullRequests","MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+Size, +Complexity",0.011241217798594848,0.4403669724770642,1.8879186470653253
+"+Size, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Size, +Complexity",0.013583138173302109,0.3670886075949367,1.5737634080626304
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests","+Size, +Complexity",0.012412177985948477,0.5955056179775281,2.55302107305627
+"+Size, MajorContributor, +WordsInDiscussion, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Size, +Complexity",0.01053864168618267,0.5357142857142857,2.2966867469879517
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Complexity",0.017096018735362997,0.46496815286624205,1.9933875629908169
+"+Size, MajorContributor, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Size, +Complexity",0.010304449648711944,0.5789473684210525,2.4820333967448738
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Complexity",0.016159250585480095,0.47586206896551725,2.040091400083091
+"MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Complexity,0.010772833723653397,0.6052631578947368,2.1306460710721566
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn","+Size, +Complexity",0.012412177985948477,0.5408163265306123,2.318559954102123
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Coupling",0.012646370023419205,0.4864864864864865,2.3158275332188376
+"+Contributor, +WordsInDiscussion, LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Coupling,0.011007025761124122,0.4351851851851852,1.328263574510894
+"+Size, +Contributor, MajorContributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn","+Contributor, MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn","+Size, +Coupling",0.0117096018735363,0.5208333333333334,2.479329245633594
+"+Size, +Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, -Cohesion, +NumPullRequests","+Contributor, MajorContributor, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+Size, -Cohesion",0.011007025761124122,0.376,2.6938255033557046
+"+Size, +Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests","+Contributor, MajorContributor, HighHunksCount, +WordsInDiscussion, +WordsPerComment, +NumPullRequests",+Size,0.012177985948477752,0.6341463414634146,1.711633930498597
+"+Size, +Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Contributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Size,0.012646370023419205,0.5,1.3495575221238938
+"+Size, +Contributor, MajorContributor, LowChangeSet, -Cohesion, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, -Cohesion",0.010070257611241218,0.38738738738738737,2.775409637825745
+"+Size, +WordsInDiscussion, LowChangeSet, +Coupling, +WordsPerComment, LowCodeChurn, +NumPullRequests","+WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Size, +Coupling",0.012177985948477752,0.3291139240506329,1.5666850119244176
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Coupling, +WordsPerComment, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, +NumPullRequests","+Size, +Coupling",0.011007025761124122,0.5280898876404495,2.5138727092806237
+"+Size, MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Coupling",0.014754098360655738,0.4012738853503185,1.9101889525594873
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Coupling, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Coupling",0.017096018735362997,0.5034482758620689,2.396570945296582
+"+Size, MajorContributor, LowChangeSet, +WordsInDiscussion, +Coupling, +WordsPerComment, LowCodeChurn","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn","+Size, +Coupling",0.011007025761124122,0.4795918367346939,2.2830068482242396
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests",+Size,0.01288056206088993,0.7236842105263157,1.9533069399161618
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, -Cohesion, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, -Cohesion",0.010304449648711944,0.30344827586206896,2.17403378847489
+"+Size, +Contributor, MajorContributor, LowChangeSet, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","+Contributor, MajorContributor, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Complexity, +Coupling",0.010304449648711944,0.3963963963963964,2.600019374212923
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Complexity, +Coupling",0.012177985948477752,0.3312101910828026,2.172453941510856
+"+Size, MajorContributor, HighHunksCount, LowChangeSet, +Complexity, +Coupling, LowCodeChurn, +NumPullRequests","MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, +NumPullRequests","+Size, +Complexity, +Coupling",0.012412177985948477,0.3655172413793103,2.397478680014831
+"+Size, MajorContributor, +WordsInDiscussion, LowChangeSet, +Complexity, +WordsPerComment, LowCodeChurn, +NumPullRequests","MajorContributor, +WordsInDiscussion, LowChangeSet, +WordsPerComment, LowCodeChurn, +NumPullRequests","+Size, +Complexity",0.010304449648711944,0.5789473684210525,2.4820333967448738

@@ -1,0 +1,20 @@
+Items,Antecedent,Consequent,Support,Confidence,Lift
+-Size,,-Size,0.47054698457223,0.47054698457223,1.0
+"-Size, HighHunksCount",HighHunksCount,-Size,0.1093969144460028,0.3929471032745592,0.835085796228795
+"-Size, LowChangeSet",LowChangeSet,-Size,0.07433380084151472,0.3925925925925926,0.8343323949881327
+"LowCodeChurn, -Size",LowCodeChurn,-Size,0.12342215988779803,0.36065573770491804,0.7664606288632089
+"-Size, MajorContributor",MajorContributor,-Size,0.40953716690042075,0.6814469078179697,1.4482016252584573
+"+Contributor, -Coupling, MajorContributor","+Contributor, MajorContributor",-Coupling,0.016830294530154277,0.42105263157894735,2.4407359863072315
+"+Size, LowChangeSet, HighHunksCount","LowChangeSet, HighHunksCount",+Size,0.014726507713884993,0.3684210526315789,8.339181286549707
+"-Size, LowChangeSet, HighHunksCount","LowChangeSet, HighHunksCount",-Size,0.019635343618513323,0.49122807017543857,1.0439511595680706
+"LowCodeChurn, -Size, HighHunksCount","LowCodeChurn, HighHunksCount",-Size,0.04417952314165498,0.44680851063829785,0.9495513206709579
+"-Size, MajorContributor, HighHunksCount","MajorContributor, HighHunksCount",-Size,0.08835904628330996,0.6176470588235294,1.3126150609275007
+"LowCodeChurn, -Size, LowChangeSet","LowCodeChurn, LowChangeSet",-Size,0.04488078541374474,0.32323232323232326,0.6869289015339687
+"-Size, LowChangeSet, MajorContributor","LowChangeSet, MajorContributor",-Size,0.06521739130434782,0.45145631067961167,0.9594287615933328
+"LowCodeChurn, -Size, MajorContributor","LowCodeChurn, MajorContributor",-Size,0.12201963534361851,0.5272727272727272,1.1205527706272862
+"+Size, LowChangeSet, MajorContributor, HighHunksCount","LowChangeSet, MajorContributor, HighHunksCount",+Size,0.014726507713884993,0.3888888888888889,8.80246913580247
+"LowCodeChurn, -Size, LowChangeSet, HighHunksCount","LowCodeChurn, LowChangeSet, HighHunksCount",-Size,0.011220196353436185,0.5,1.0625931445603578
+"-Size, LowChangeSet, MajorContributor, HighHunksCount","LowChangeSet, MajorContributor, HighHunksCount",-Size,0.0182328190743338,0.48148148148148145,1.023237842909974
+"LowCodeChurn, -Size, MajorContributor, HighHunksCount","LowCodeChurn, MajorContributor, HighHunksCount",-Size,0.04417952314165498,0.63,1.3388673621460507
+"LowCodeChurn, -Size, LowChangeSet, MajorContributor","LowCodeChurn, LowChangeSet, MajorContributor",-Size,0.043478260869565216,0.4246575342465753,0.9024763693526325
+"MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, -Size","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount",-Size,0.011220196353436185,0.5161290322580645,1.0968703427719821

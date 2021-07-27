@@ -1,0 +1,7 @@
+Items,Antecedent,Consequent,Support,Confidence,Lift
+"+Size, +Contributor, HighHunksCount","+Contributor, HighHunksCount",+Size,0.03072033898305085,0.3515151515151515,3.548987198185059
+"+Size, +WordsPerComment, HighHunksCount","+WordsPerComment, HighHunksCount",+Size,0.010063559322033898,0.3333333333333333,3.3654188948306594
+"+Size, +Contributor, +NumPullRequests, HighHunksCount","+Contributor, +NumPullRequests, HighHunksCount",+Size,0.028072033898305086,0.36054421768707484,3.6401469678780605
+"+Size, +Contributor, MajorContributor, HighHunksCount","+Contributor, MajorContributor, HighHunksCount",+Size,0.021716101694915255,0.30597014925373134,3.0891531646579935
+"+Size, +WordsInDiscussion, +WordsPerComment, HighHunksCount","+WordsPerComment, +WordsInDiscussion, HighHunksCount",+Size,0.010063559322033898,0.3333333333333333,3.3654188948306594
+"+Size, +Contributor, MajorContributor, HighHunksCount, +NumPullRequests","+Contributor, +NumPullRequests, MajorContributor, HighHunksCount",+Size,0.019597457627118644,0.3135593220338983,3.1657754010695185

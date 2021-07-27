@@ -1,0 +1,73 @@
+Items,Antecedent,Consequent,Support,Confidence,Lift
+"MajorContributor, +Complexity",MajorContributor,+Complexity,0.24128440366972478,0.32957393483709274,1.3659147869674184
+"+Contributor, -Coupling",+Contributor,-Coupling,0.08807339449541285,0.31475409836065577,1.874764848159097
+"MajorContributor, +Coupling",MajorContributor,+Coupling,0.29541284403669726,0.4035087719298246,1.3491550963297816
+"+Size, LowChangeSet",LowChangeSet,+Size,0.14954128440366973,0.3052434456928839,1.0268992463124798
+"+Size, MajorContributor",MajorContributor,+Size,0.28990825688073396,0.3959899749373434,1.332188495931186
+"-Coupling, MinorContributor",MinorContributor,-Coupling,0.081651376146789,0.3047945205479452,1.8154427726626243
+"-Size, LowChangeSet",LowChangeSet,-Size,0.15504587155963304,0.31647940074906367,1.2544092611508342
+"+Size, MajorContributor, +Complexity",MajorContributor,"+Size, +Complexity",0.23394495412844038,0.31954887218045114,1.3659147869674184
+"+Contributor, LowChangeSet, -Cohesion","+Contributor, LowChangeSet",-Cohesion,0.03577981651376147,0.52,3.7289473684210526
+"+Contributor, LowChangeSet, -Complexity","+Contributor, LowChangeSet",-Complexity,0.03944954128440367,0.5733333333333334,6.126797385620915
+"+Contributor, -Coupling, HighHunksCount","+Contributor, HighHunksCount",-Coupling,0.04128440366972477,0.3191489361702128,1.9009417509591908
+"+Contributor, -Coupling, LowChangeSet","+Contributor, LowChangeSet",-Coupling,0.03853211009174312,0.56,3.33551912568306
+"+Contributor, -Coupling, MinorContributor","+Contributor, MinorContributor",-Coupling,0.08073394495412844,0.3066202090592335,1.8263170922107348
+"+Contributor, -Size, LowChangeSet","+Contributor, LowChangeSet",-Size,0.04220183486238532,0.6133333333333333,2.431030303030303
+"HighHunksCount, MajorContributor, +Coupling","MajorContributor, HighHunksCount",+Coupling,0.0889908256880734,0.3099041533546326,1.0361825986397224
+"LowCodeChurn, LowChangeSet, +Coupling","LowCodeChurn, LowChangeSet",+Coupling,0.10550458715596331,0.3248587570621469,1.086184187723129
+"LowChangeSet, MajorContributor, +Coupling","LowChangeSet, MajorContributor",+Coupling,0.14220183486238533,0.33405172413793105,1.1169214089274382
+"LowCodeChurn, MajorContributor, +Coupling","LowCodeChurn, MajorContributor",+Coupling,0.12935779816513762,0.34558823529411764,1.1554944063514976
+"+Size, MajorContributor, HighHunksCount","MajorContributor, HighHunksCount",+Size,0.0889908256880734,0.3099041533546326,1.0425787875202146
+"+Size, LowCodeChurn, LowChangeSet","LowCodeChurn, LowChangeSet",+Size,0.10550458715596331,0.3248587570621469,1.0928890283880868
+"+Size, LowChangeSet, MajorContributor","LowChangeSet, MajorContributor",+Size,0.14770642201834863,0.34698275862068967,1.1673185398041719
+"LowChangeSet, -Cohesion, MinorContributor","LowChangeSet, MinorContributor",-Cohesion,0.03302752293577982,0.5142857142857142,3.6879699248120295
+"MinorContributor, LowChangeSet, -Complexity","LowChangeSet, MinorContributor",-Complexity,0.03577981651376147,0.5571428571428572,5.953781512605042
+"-Coupling, LowChangeSet, MinorContributor","LowChangeSet, MinorContributor",-Coupling,0.03486238532110092,0.5428571428571428,3.233411397345823
+"-Size, LowChangeSet, HighHunksCount","LowChangeSet, HighHunksCount",-Size,0.07614678899082569,0.3672566371681416,1.4556717618664523
+"LowCodeChurn, -Size, HighHunksCount","LowCodeChurn, HighHunksCount",-Size,0.06605504587155964,0.3444976076555024,1.3654632448890824
+"-Size, MajorContributor, HighHunksCount","MajorContributor, HighHunksCount",-Size,0.1018348623853211,0.354632587859425,1.4056346209700845
+"-Size, LowChangeSet, MinorContributor","LowChangeSet, MinorContributor",-Size,0.03853211009174312,0.6,2.3781818181818184
+"LowCodeChurn, -Size, MajorContributor","LowCodeChurn, MajorContributor",-Size,0.11834862385321102,0.3161764705882353,1.2532085561497326
+"+Contributor, LowChangeSet, -Cohesion, -Complexity","+Contributor, LowChangeSet","-Cohesion, -Complexity",0.03302752293577982,0.48,10.061538461538461
+"+Contributor, -Coupling, LowChangeSet, -Cohesion","+Contributor, LowChangeSet","-Coupling, -Cohesion",0.03211009174311927,0.4666666666666667,10.173333333333334
+"+Contributor, -Size, LowChangeSet, -Cohesion","+Contributor, LowChangeSet","-Size, -Cohesion",0.03302752293577982,0.48,9.342857142857142
+"+Contributor, LowChangeSet, -Cohesion, MinorContributor","+Contributor, LowChangeSet, MinorContributor",-Cohesion,0.03211009174311927,0.5223880597014925,3.746072270227808
+"+Contributor, -Coupling, LowChangeSet, -Complexity","+Contributor, LowChangeSet","-Coupling, -Complexity",0.03486238532110092,0.5066666666666667,6.734959349593496
+"+Contributor, -Size, LowChangeSet, -Complexity","+Contributor, LowChangeSet","-Size, -Complexity",0.03944954128440367,0.5733333333333334,6.126797385620915
+"MinorContributor, +Contributor, LowChangeSet, -Complexity","+Contributor, LowChangeSet, MinorContributor",-Complexity,0.03486238532110092,0.5671641791044776,6.060872110038044
+"-Size, +Contributor, -Coupling, LowChangeSet","+Contributor, LowChangeSet","-Size, -Coupling",0.03486238532110092,0.5066666666666667,5.31025641025641
+"+Contributor, -Coupling, LowChangeSet, MinorContributor","+Contributor, LowChangeSet, MinorContributor",-Coupling,0.03486238532110092,0.5671641791044776,3.3781910121523526
+"+Contributor, -Size, LowChangeSet, MinorContributor","+Contributor, LowChangeSet, MinorContributor",-Size,0.03761467889908257,0.6119402985074627,2.4255088195386705
+"LowCodeChurn, LowChangeSet, MajorContributor, +Coupling","LowCodeChurn, LowChangeSet, MajorContributor",+Coupling,0.10366972477064221,0.3542319749216301,1.1843952535723214
+"+Size, LowCodeChurn, LowChangeSet, MajorContributor","LowCodeChurn, LowChangeSet, MajorContributor",+Size,0.10366972477064221,0.3542319749216301,1.1917063353844963
+"MinorContributor, LowChangeSet, -Cohesion, -Complexity","LowChangeSet, MinorContributor","-Cohesion, -Complexity",0.03211009174311927,0.5,10.48076923076923
+"-Coupling, LowChangeSet, -Cohesion, MinorContributor","LowChangeSet, MinorContributor","-Coupling, -Cohesion",0.031192660550458717,0.4857142857142857,10.588571428571427
+"-Size, LowChangeSet, -Cohesion, MinorContributor","LowChangeSet, MinorContributor","-Size, -Cohesion",0.03211009174311927,0.5,9.732142857142856
+"MinorContributor, -Coupling, LowChangeSet, -Complexity","LowChangeSet, MinorContributor","-Coupling, -Complexity",0.031192660550458717,0.4857142857142857,6.456445993031358
+"MinorContributor, -Size, LowChangeSet, -Complexity","LowChangeSet, MinorContributor","-Size, -Complexity",0.03577981651376147,0.5571428571428572,5.953781512605042
+"-Size, -Coupling, LowChangeSet, MinorContributor","LowChangeSet, MinorContributor","-Size, -Coupling",0.031192660550458717,0.4857142857142857,5.09065934065934
+"LowCodeChurn, -Size, LowChangeSet, HighHunksCount","LowCodeChurn, LowChangeSet, HighHunksCount",-Size,0.05045871559633028,0.36423841059602646,1.4437086092715232
+"-Size, LowChangeSet, MajorContributor, HighHunksCount","LowChangeSet, MajorContributor, HighHunksCount",-Size,0.07155963302752294,0.3644859813084112,1.4446898895497027
+"LowCodeChurn, -Size, MajorContributor, HighHunksCount","LowCodeChurn, MajorContributor, HighHunksCount",-Size,0.06330275229357799,0.39655172413793105,1.5717868338557994
+"+Contributor, -Coupling, LowChangeSet, -Cohesion, -Complexity","+Contributor, LowChangeSet","-Coupling, -Cohesion, -Complexity",0.031192660550458717,0.4533333333333333,11.230303030303029
+"+Contributor, LowChangeSet, -Cohesion, -Size, -Complexity","+Contributor, LowChangeSet","-Size, -Cohesion, -Complexity",0.03302752293577982,0.48,10.061538461538461
+"+Contributor, MinorContributor, LowChangeSet, -Cohesion, -Complexity","+Contributor, LowChangeSet, MinorContributor","-Cohesion, -Complexity",0.031192660550458717,0.5074626865671642,10.63719862227325
+"+Contributor, -Coupling, LowChangeSet, -Cohesion, -Size","+Contributor, LowChangeSet","-Size, -Coupling, -Cohesion",0.031192660550458717,0.4533333333333333,10.513475177304963
+"+Contributor, MinorContributor, -Coupling, LowChangeSet, -Cohesion","+Contributor, LowChangeSet, MinorContributor","-Coupling, -Cohesion",0.031192660550458717,0.5074626865671642,11.062686567164178
+"+Contributor, MinorContributor, LowChangeSet, -Cohesion, -Size","+Contributor, LowChangeSet, MinorContributor","-Size, -Cohesion",0.031192660550458717,0.5074626865671642,9.877398720682303
+"+Contributor, -Coupling, LowChangeSet, -Size, -Complexity","+Contributor, LowChangeSet","-Size, -Coupling, -Complexity",0.03486238532110092,0.5066666666666667,6.734959349593496
+"+Contributor, MinorContributor, -Coupling, LowChangeSet, -Complexity","+Contributor, LowChangeSet, MinorContributor","-Coupling, -Complexity",0.031192660550458717,0.5074626865671642,6.745540589734255
+"+Contributor, MinorContributor, LowChangeSet, -Size, -Complexity","+Contributor, LowChangeSet, MinorContributor","-Size, -Complexity",0.03486238532110092,0.5671641791044776,6.060872110038044
+"+Contributor, MinorContributor, -Coupling, LowChangeSet, -Size","+Contributor, LowChangeSet, MinorContributor","-Size, -Coupling",0.031192660550458717,0.5074626865671642,5.318599311136625
+"MinorContributor, -Coupling, LowChangeSet, -Cohesion, -Complexity","LowChangeSet, MinorContributor","-Coupling, -Cohesion, -Complexity",0.030275229357798167,0.4714285714285714,11.678571428571427
+"MinorContributor, LowChangeSet, -Cohesion, -Size, -Complexity","LowChangeSet, MinorContributor","-Size, -Cohesion, -Complexity",0.03211009174311927,0.5,10.48076923076923
+"MinorContributor, -Coupling, LowChangeSet, -Cohesion, -Size","LowChangeSet, MinorContributor","-Size, -Coupling, -Cohesion",0.030275229357798167,0.4714285714285714,10.933130699088146
+"MinorContributor, -Coupling, LowChangeSet, -Size, -Complexity","LowChangeSet, MinorContributor","-Size, -Coupling, -Complexity",0.031192660550458717,0.4857142857142857,6.456445993031358
+"MajorContributor, HighHunksCount, LowChangeSet, LowCodeChurn, -Size","LowCodeChurn, LowChangeSet, MajorContributor, HighHunksCount",-Size,0.047706422018348627,0.36879432624113473,1.461766602192134
+"+Contributor, -Coupling, LowChangeSet, -Cohesion, -Size, -Complexity","+Contributor, LowChangeSet","-Size, -Coupling, -Cohesion, -Complexity",0.031192660550458717,0.4533333333333333,11.230303030303029
+"+Contributor, MinorContributor, -Coupling, LowChangeSet, -Cohesion, -Complexity","+Contributor, LowChangeSet, MinorContributor","-Coupling, -Cohesion, -Complexity",0.030275229357798167,0.4925373134328358,12.201492537313431
+"+Contributor, MinorContributor, LowChangeSet, -Cohesion, -Size, -Complexity","+Contributor, LowChangeSet, MinorContributor","-Size, -Cohesion, -Complexity",0.031192660550458717,0.5074626865671642,10.63719862227325
+"+Contributor, MinorContributor, -Coupling, LowChangeSet, -Cohesion, -Size","+Contributor, LowChangeSet, MinorContributor","-Size, -Coupling, -Cohesion",0.030275229357798167,0.4925373134328358,11.422673864718957
+"+Contributor, MinorContributor, -Coupling, LowChangeSet, -Size, -Complexity","+Contributor, LowChangeSet, MinorContributor","-Size, -Coupling, -Complexity",0.031192660550458717,0.5074626865671642,6.745540589734255
+"MinorContributor, -Coupling, LowChangeSet, -Cohesion, -Size, -Complexity","LowChangeSet, MinorContributor","-Size, -Coupling, -Cohesion, -Complexity",0.030275229357798167,0.4714285714285714,11.678571428571427
+"+Contributor, MinorContributor, -Coupling, LowChangeSet, -Cohesion, -Size, -Complexity","+Contributor, LowChangeSet, MinorContributor","-Size, -Coupling, -Cohesion, -Complexity",0.030275229357798167,0.4925373134328358,12.201492537313431

@@ -1,0 +1,80 @@
+Items,Antecedent,Consequent,Support,Confidence,Lift
+"+NumPullRequests, +Cohesion",+NumPullRequests,+Cohesion,0.01008533747090768,0.65,19.042045454545455
+"+WordsInDiscussion, +Cohesion",+WordsInDiscussion,+Cohesion,0.01008533747090768,0.6190476190476191,18.135281385281388
+"+WordsPerComment, +Cohesion",+WordsPerComment,+Cohesion,0.01008533747090768,0.6190476190476191,18.135281385281388
+"+Size, LowChangeSet",LowChangeSet,+Size,0.023273855702094646,0.3157894736842105,2.7690655209452197
+"HighCodeChurn, -Complexity",HighCodeChurn,-Complexity,0.09775019394879751,0.3405405405405405,2.4386486486486483
+"HighHunksCount, -Complexity",HighHunksCount,-Complexity,0.03646237393328161,0.5108695652173912,3.658393719806763
+"-Size, HighHunksCount",HighHunksCount,-Size,0.028704422032583398,0.4021739130434782,3.8117806905370837
+"+Contributor, +NumPullRequests, +Cohesion","+Contributor, +NumPullRequests",+Cohesion,0.01008533747090768,0.65,19.042045454545455
+"+Contributor, +WordsInDiscussion, +Cohesion","+Contributor, +WordsInDiscussion",+Cohesion,0.01008533747090768,0.6190476190476191,18.135281385281388
+"+Contributor, +WordsPerComment, +Cohesion","+Contributor, +WordsPerComment",+Cohesion,0.01008533747090768,0.6190476190476191,18.135281385281388
+"+NumPullRequests, +WordsInDiscussion, +Cohesion","+NumPullRequests, +WordsInDiscussion",+Cohesion,0.01008533747090768,0.6842105263157895,20.044258373205743
+"+NumPullRequests, +WordsPerComment, +Cohesion","+NumPullRequests, +WordsPerComment",+Cohesion,0.01008533747090768,0.6842105263157895,20.044258373205743
+"+WordsPerComment, +WordsInDiscussion, +Cohesion","+WordsPerComment, +WordsInDiscussion",+Cohesion,0.01008533747090768,0.6190476190476191,18.135281385281388
+"+Contributor, HighCodeChurn, -Complexity","+Contributor, HighCodeChurn",-Complexity,0.09775019394879751,0.3405405405405405,2.4386486486486483
+"+Contributor, HighHunksCount, -Complexity","+Contributor, HighHunksCount",-Complexity,0.03180760279286268,0.5256410256410255,3.7641737891737885
+"+Contributor, -Size, HighHunksCount","+Contributor, HighHunksCount",-Size,0.02482544608223429,0.41025641025641024,3.8883861236802413
+"+Size, LowCodeChurn, LowChangeSet","LowCodeChurn, LowChangeSet",+Size,0.018619084561675717,0.3,2.630612244897959
+"+Size, LowChangeSet, MajorContributor","LowChangeSet, MajorContributor",+Size,0.015515903801396431,0.4444444444444444,3.897203325774754
+"+Size, LowCodeChurn, MajorContributor","LowCodeChurn, MajorContributor",+Size,0.02094647013188518,0.3698630136986301,3.243220575901593
+"HighChangeSet, HighCodeChurn, -Complexity","HighChangeSet, HighCodeChurn",-Complexity,0.09775019394879751,0.3405405405405405,2.4386486486486483
+"HighHunksCount, HighChangeSet, -Complexity","HighChangeSet, HighHunksCount",-Complexity,0.02482544608223429,0.6808510638297873,4.8756501182033105
+"HighChangeSet, MajorContributor, -Complexity","HighChangeSet, MajorContributor",-Complexity,0.06671838634600466,0.4174757281553399,2.9895900755124063
+"HighHunksCount, HighCodeChurn, -Complexity","HighCodeChurn, HighHunksCount",-Complexity,0.02482544608223429,0.6808510638297873,4.8756501182033105
+"MajorContributor, HighCodeChurn, -Complexity","MajorContributor, HighCodeChurn",-Complexity,0.06671838634600466,0.4455958549222798,3.190961427748993
+"HighHunksCount, MajorContributor, -Complexity","MajorContributor, HighHunksCount",-Complexity,0.03335919317300233,0.511904761904762,3.6658068783068787
+"-Size, HighChangeSet, HighHunksCount","HighChangeSet, HighHunksCount",-Size,0.019394879751745538,0.5319148936170213,5.041458072590738
+"-Size, HighChangeSet, MajorContributor","HighChangeSet, MajorContributor",-Size,0.04809930178432894,0.3009708737864078,2.852584237578527
+"-Size, HighCodeChurn, HighHunksCount","HighCodeChurn, HighHunksCount",-Size,0.019394879751745538,0.5319148936170213,5.041458072590738
+"MajorContributor, -Size, HighCodeChurn","MajorContributor, HighCodeChurn",-Size,0.04809930178432894,0.3212435233160622,3.0447272173117956
+"-Size, MajorContributor, HighHunksCount","MajorContributor, HighHunksCount",-Size,0.027928626842513578,0.4285714285714286,4.061974789915967
+"+Contributor, +NumPullRequests, +WordsInDiscussion, +Cohesion","+Contributor, +NumPullRequests, +WordsInDiscussion",+Cohesion,0.01008533747090768,0.6842105263157895,20.044258373205743
+"+Contributor, +NumPullRequests, +WordsPerComment, +Cohesion","+Contributor, +NumPullRequests, +WordsPerComment",+Cohesion,0.01008533747090768,0.6842105263157895,20.044258373205743
+"+WordsPerComment, +Contributor, +WordsInDiscussion, +Cohesion","+WordsPerComment, +Contributor, +WordsInDiscussion",+Cohesion,0.01008533747090768,0.6190476190476191,18.135281385281388
+"+WordsPerComment, +NumPullRequests, +WordsInDiscussion, +Cohesion","+WordsPerComment, +NumPullRequests, +WordsInDiscussion",+Cohesion,0.01008533747090768,0.6842105263157895,20.044258373205743
+"+Contributor, HighChangeSet, HighCodeChurn, -Complexity","+Contributor, HighChangeSet, HighCodeChurn",-Complexity,0.09775019394879751,0.3405405405405405,2.4386486486486483
+"+Contributor, HighHunksCount, HighChangeSet, -Complexity","+Contributor, HighChangeSet, HighHunksCount",-Complexity,0.02482544608223429,0.6808510638297873,4.8756501182033105
+"+Contributor, HighChangeSet, MajorContributor, -Complexity","+Contributor, HighChangeSet, MajorContributor",-Complexity,0.06671838634600466,0.4174757281553399,2.9895900755124063
+"+Contributor, HighHunksCount, HighCodeChurn, -Complexity","+Contributor, HighCodeChurn, HighHunksCount",-Complexity,0.02482544608223429,0.6808510638297873,4.8756501182033105
+"+Contributor, MajorContributor, HighCodeChurn, -Complexity","+Contributor, MajorContributor, HighCodeChurn",-Complexity,0.06671838634600466,0.4455958549222798,3.190961427748993
+"+Contributor, HighHunksCount, MajorContributor, -Complexity","+Contributor, MajorContributor, HighHunksCount",-Complexity,0.028704422032583398,0.5285714285714286,3.7851587301587304
+"+Contributor, -Size, HighChangeSet, HighHunksCount","+Contributor, HighChangeSet, HighHunksCount",-Size,0.019394879751745538,0.5319148936170213,5.041458072590738
+"+Contributor, -Size, HighChangeSet, MajorContributor","+Contributor, HighChangeSet, MajorContributor",-Size,0.04809930178432894,0.3009708737864078,2.852584237578527
+"+Contributor, -Size, HighCodeChurn, HighHunksCount","+Contributor, HighCodeChurn, HighHunksCount",-Size,0.019394879751745538,0.5319148936170213,5.041458072590738
+"+Contributor, -Size, MajorContributor, HighCodeChurn","+Contributor, MajorContributor, HighCodeChurn",-Size,0.04809930178432894,0.3212435233160622,3.0447272173117956
+"+Contributor, -Size, MajorContributor, HighHunksCount","+Contributor, MajorContributor, HighHunksCount",-Size,0.02404965089216447,0.4428571428571429,4.197373949579832
+"+Size, LowCodeChurn, LowChangeSet, MajorContributor","LowCodeChurn, LowChangeSet, MajorContributor",+Size,0.011636927851047323,0.42857142857142855,3.75801749271137
+"-Size, HighHunksCount, HighChangeSet, -Complexity","HighChangeSet, HighHunksCount","-Size, -Complexity",0.013188518231186967,0.3617021276595745,6.134658454647257
+"-Size, HighHunksCount, HighCodeChurn, -Complexity","HighCodeChurn, HighHunksCount","-Size, -Complexity",0.013188518231186967,0.3617021276595745,6.134658454647257
+"HighHunksCount, HighChangeSet, HighCodeChurn, -Complexity","HighChangeSet, HighCodeChurn, HighHunksCount",-Complexity,0.02482544608223429,0.6808510638297873,4.8756501182033105
+"MajorContributor, HighChangeSet, HighCodeChurn, -Complexity","MajorContributor, HighChangeSet, HighCodeChurn",-Complexity,0.06671838634600466,0.4455958549222798,3.190961427748993
+"HighHunksCount, HighChangeSet, MajorContributor, -Complexity","HighChangeSet, MajorContributor, HighHunksCount",-Complexity,0.022498060512024826,0.6744186046511628,4.829586563307493
+"MajorContributor, HighHunksCount, HighCodeChurn, -Complexity","MajorContributor, HighCodeChurn, HighHunksCount",-Complexity,0.022498060512024826,0.6744186046511628,4.829586563307493
+"-Size, HighChangeSet, HighCodeChurn, HighHunksCount","HighChangeSet, HighCodeChurn, HighHunksCount",-Size,0.019394879751745538,0.5319148936170213,5.041458072590738
+"MajorContributor, -Size, HighChangeSet, HighCodeChurn","MajorContributor, HighChangeSet, HighCodeChurn",-Size,0.04809930178432894,0.3212435233160622,3.0447272173117956
+"-Size, HighChangeSet, MajorContributor, HighHunksCount","HighChangeSet, MajorContributor, HighHunksCount",-Size,0.018619084561675717,0.5581395348837209,5.290013679890561
+"MajorContributor, -Size, HighCodeChurn, HighHunksCount","MajorContributor, HighCodeChurn, HighHunksCount",-Size,0.018619084561675717,0.5581395348837209,5.290013679890561
+"+Contributor, +WordsInDiscussion, +Cohesion, +WordsPerComment, +NumPullRequests","+WordsPerComment, +Contributor, +NumPullRequests, +WordsInDiscussion",+Cohesion,0.01008533747090768,0.6842105263157895,20.044258373205743
+"+Contributor, HighHunksCount, -Size, HighChangeSet, -Complexity","+Contributor, HighChangeSet, HighHunksCount","-Size, -Complexity",0.013188518231186967,0.3617021276595745,6.134658454647257
+"+Contributor, HighHunksCount, -Size, HighCodeChurn, -Complexity","+Contributor, HighCodeChurn, HighHunksCount","-Size, -Complexity",0.013188518231186967,0.3617021276595745,6.134658454647257
+"+Contributor, HighHunksCount, HighChangeSet, HighCodeChurn, -Complexity","+Contributor, HighChangeSet, HighCodeChurn, HighHunksCount",-Complexity,0.02482544608223429,0.6808510638297873,4.8756501182033105
+"+Contributor, MajorContributor, HighChangeSet, HighCodeChurn, -Complexity","+Contributor, MajorContributor, HighChangeSet, HighCodeChurn",-Complexity,0.06671838634600466,0.4455958549222798,3.190961427748993
+"+Contributor, MajorContributor, HighHunksCount, HighChangeSet, -Complexity","+Contributor, HighChangeSet, MajorContributor, HighHunksCount",-Complexity,0.022498060512024826,0.6744186046511628,4.829586563307493
+"+Contributor, MajorContributor, HighHunksCount, HighCodeChurn, -Complexity","+Contributor, MajorContributor, HighCodeChurn, HighHunksCount",-Complexity,0.022498060512024826,0.6744186046511628,4.829586563307493
+"+Contributor, HighHunksCount, -Size, HighChangeSet, HighCodeChurn","+Contributor, HighChangeSet, HighCodeChurn, HighHunksCount",-Size,0.019394879751745538,0.5319148936170213,5.041458072590738
+"+Contributor, MajorContributor, -Size, HighChangeSet, HighCodeChurn","+Contributor, MajorContributor, HighChangeSet, HighCodeChurn",-Size,0.04809930178432894,0.3212435233160622,3.0447272173117956
+"+Contributor, MajorContributor, HighHunksCount, -Size, HighChangeSet","+Contributor, HighChangeSet, MajorContributor, HighHunksCount",-Size,0.018619084561675717,0.5581395348837209,5.290013679890561
+"+Contributor, MajorContributor, HighHunksCount, -Size, HighCodeChurn","+Contributor, MajorContributor, HighCodeChurn, HighHunksCount",-Size,0.018619084561675717,0.5581395348837209,5.290013679890561
+"HighHunksCount, -Size, HighChangeSet, HighCodeChurn, -Complexity","HighChangeSet, HighCodeChurn, HighHunksCount","-Size, -Complexity",0.013188518231186967,0.3617021276595745,6.134658454647257
+"MajorContributor, HighHunksCount, -Size, HighChangeSet, -Complexity","HighChangeSet, MajorContributor, HighHunksCount","-Size, -Complexity",0.012412723041117145,0.3720930232558139,6.310893512851896
+"MajorContributor, HighHunksCount, -Size, HighCodeChurn, -Complexity","MajorContributor, HighCodeChurn, HighHunksCount","-Size, -Complexity",0.012412723041117145,0.3720930232558139,6.310893512851896
+"MajorContributor, HighHunksCount, HighChangeSet, HighCodeChurn, -Complexity","MajorContributor, HighChangeSet, HighCodeChurn, HighHunksCount",-Complexity,0.022498060512024826,0.6744186046511628,4.829586563307493
+"MajorContributor, HighHunksCount, -Size, HighChangeSet, HighCodeChurn","MajorContributor, HighChangeSet, HighCodeChurn, HighHunksCount",-Size,0.018619084561675717,0.5581395348837209,5.290013679890561
+"+Contributor, HighHunksCount, -Size, HighChangeSet, HighCodeChurn, -Complexity","+Contributor, HighChangeSet, HighCodeChurn, HighHunksCount","-Size, -Complexity",0.013188518231186967,0.3617021276595745,6.134658454647257
+"+Contributor, MajorContributor, HighHunksCount, -Size, HighChangeSet, -Complexity","+Contributor, HighChangeSet, MajorContributor, HighHunksCount","-Size, -Complexity",0.012412723041117145,0.3720930232558139,6.310893512851896
+"+Contributor, MajorContributor, HighHunksCount, -Size, HighCodeChurn, -Complexity","+Contributor, MajorContributor, HighCodeChurn, HighHunksCount","-Size, -Complexity",0.012412723041117145,0.3720930232558139,6.310893512851896
+"+Contributor, MajorContributor, HighHunksCount, HighChangeSet, HighCodeChurn, -Complexity","+Contributor, MajorContributor, HighHunksCount, HighChangeSet, HighCodeChurn",-Complexity,0.022498060512024826,0.6744186046511628,4.829586563307493
+"+Contributor, MajorContributor, HighHunksCount, -Size, HighChangeSet, HighCodeChurn","+Contributor, MajorContributor, HighHunksCount, HighChangeSet, HighCodeChurn",-Size,0.018619084561675717,0.5581395348837209,5.290013679890561
+"MajorContributor, HighHunksCount, -Size, HighChangeSet, HighCodeChurn, -Complexity","MajorContributor, HighChangeSet, HighCodeChurn, HighHunksCount","-Size, -Complexity",0.012412723041117145,0.3720930232558139,6.310893512851896
+"+Contributor, MajorContributor, HighHunksCount, -Size, HighChangeSet, HighCodeChurn, -Complexity","+Contributor, MajorContributor, HighHunksCount, HighChangeSet, HighCodeChurn","-Size, -Complexity",0.012412723041117145,0.3720930232558139,6.310893512851896
